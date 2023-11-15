@@ -3,7 +3,7 @@ import "../Content.css";
 
 export default function Updates() {
   return (
-    <div className="content-container">
+    <div className="content-container2">
       <div className="content-Title">Updates from OpenFWI</div>
       <div className="content-text">
         June 22, 2023: Kimberlina 3D-V1 is released
