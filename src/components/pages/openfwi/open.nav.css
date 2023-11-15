@@ -1,0 +1,106 @@
+/* Vertical Navbar styles */
+.vertical-navbar {
+  width: 20%; /* Set a specific width */
+  position: fixed; /* Fixed Sidebar */
+  z-index: 0; /* Stay on top */
+
+  /* background-color: #4caf50; */
+  /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding: 20px 0px 0 20px;
+  justify-content: center;
+}
+
+/* Navbar container */
+.vertical-navbar-container {
+  display: flex;
+  flex-flow: column;
+  padding-top: 10px;
+  overflow: hidden;
+  text-decoration: none;
+  /* background-color: #c52a2a; */
+  flex-direction: column; /* Aligns elements vertically */
+  height: 100%;
+  align-items: center; /* Centers items on the cross-axis */
+}
+
+/* Style navbar links */
+.vertical-nav-links {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  display: block; /* Ensures links take full width */
+  width: 100%; /* Full width */
+  text-align: left; /* Center the text */
+  padding: 0.5rem 0.5rem;
+  list-style-type: none;
+}
+
+.vertical-nav-links:hover {
+  background-color: #ffffff; /* Add a hover effect */
+  color: rgb(0, 0, 0);
+}
+
+/* Style for the active navigation link */
+.vertical-nav-links.active {
+  background-color: #4caf50;
+  color: rgb(0, 0, 0);
+}
+
+/* Responsive styling */
+
+@media screen and (min-width: 1000px) {
+  .vertical-navbar {
+    width: 100%;
+    height: auto; /* Adjust the height */
+    position: fixed; /* Make it relative */
+  }
+
+  .vertical-nav-links {
+    text-align: center;
+    padding: 10px; /* Adjust padding */
+    display: fixed;
+  }
+
+  .vertical-navbar-container {
+    flex-direction: row; /* Align items in a row in small screens */
+  }
+}
+@media screen and (max-width: 999px) {
+  .vertical-navbar {
+    width: 100%;
+    height: auto; /* Adjust the height */
+    position: relative; /* Make it relative */
+  }
+
+  .vertical-nav-links {
+    text-align: center;
+    padding: 10px; /* Adjust padding */
+    display: relative;
+  }
+
+  .vertical-navbar-container {
+    /* Align items in a row in small screens */
+    display: relative;
+  }
+}
+
+/* Additional styles for better appearance */
+.vertical-navbar-logo {
+  padding: 0 20px; /* Adjust as per your logo's size */
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em; /* Adjust as necessary */
+  display: block; /* New line */
+  text-align: center; /* Center the content */
+  width: 100%; /* Full width */
+}
+
+.vertical-fa-typo3 {
+  margin-left: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.vertical-menu-icon {
+  display: none; /* Hide menu icon initially */
+}

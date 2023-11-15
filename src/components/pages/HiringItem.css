@@ -1,0 +1,45 @@
+/* HiringItem.css */
+.hiring-item-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.job-title {
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.job-about {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.job-requirements {
+  font-size: 20px;
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.apply-link {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+/* Hiring.css */
+.hiring-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
