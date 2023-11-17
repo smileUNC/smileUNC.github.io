@@ -31,7 +31,11 @@ export default function OpenFWIText() {
         </p>
       </div>
       <div className="content-image">
-        <img src="/images/gallery.jpg" alt="Models" className="content-image" />
+        <img
+          src={`${process.env.PUBLIC_URL}/images/gallery.jpg`}
+          alt="Models"
+          className="content-image"
+        />
       </div>
     </div>
   );

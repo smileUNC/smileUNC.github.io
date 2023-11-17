@@ -36,12 +36,12 @@ export default function EfwiText() {
       </div>
       <div className="content-image">
         <img
-          src="/images/all_B_models.png"
+          src={`${process.env.PUBLIC_URL}/images/all_B_models.png`}
           alt="Models"
           className="content-image"
         />
         <img
-          src="/images/elastic_fwi.png"
+          src={`${process.env.PUBLIC_URL}/images/elastic_fwi.png`}
           alt="Elastic FWI"
           className="content-image"
         />
