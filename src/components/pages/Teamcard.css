@@ -1,26 +1,29 @@
 .teamcards {
-  padding-top: 4rem;
+  padding-top: 2rem;
   background: #fff;
-  width: auto;
+  width: 88%;
 }
 
-h1 {
-  text-align: center;
+.team_title {
+  display: flex;
+  font-size: 24px;
+  color: #000000;
+  padding: 1rem 0rem 0rem 6rem;
 }
 
 .teamcards__container {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  max-width: 2500px;
+  max-width: 100%px;
   margin: auto;
 }
 
 .teamcards__wrapper {
   position: relative;
-  margin: 50px 50px 50px;
+  margin: 0px 50px 50px;
   align-items: center;
-  max-width: 2500px;
+  max-width: 100%x;
   display: flex;
 }
 

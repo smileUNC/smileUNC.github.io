@@ -1,6 +1,6 @@
 {
-  "homepage": "https://smileteamjoe.github.io/team-website",
-  "name": "smile-website",
+  "homepage": "https://smileteamjoe.github.io/team-website/",
+  "name": "team-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

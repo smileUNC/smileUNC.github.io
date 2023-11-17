@@ -11,7 +11,7 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src="images/openfwi.png"
+              src={`${process.env.PUBLIC_URL}/images/openfwi.png`}
               text={
                 <p style={{ fontFamily: "'Dancing Script', cursive" }}>
                   <strong> Elastic FWI with Deep Learning </strong>{" "}
@@ -21,7 +21,7 @@ function Cards() {
               path="/projects/efwi"
             />
             <CardItem
-              src="images/openfwi.png"
+              src={`${process.env.PUBLIC_URL}/images/openfwi.png`}
               text={
                 <p style={{ fontFamily: "'Dancing Script', cursive" }}>
                   <strong> Open FWI with Deep Learning </strong>{" "}

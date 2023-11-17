@@ -1,11 +1,15 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 function TeamItem(props) {
   return (
     <>
       <li className="teamcards__item">
-        <Link className="teamcards__item__link" to={props.path}>
+        <a
+          className="teamcards__item__link"
+          href={props.path}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <figure
             className="teamcards__item__pic-wrap"
             data-category={props.label}
@@ -15,7 +19,7 @@ function TeamItem(props) {
           <div className="teamcards__item__info">
             <h5 className="teamcards__item__text">{props.text}</h5>
           </div>
-        </Link>
+        </a>
       </li>
     </>
   );
