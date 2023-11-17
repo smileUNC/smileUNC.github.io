@@ -1,44 +1,50 @@
 .teamcards {
   padding-top: 2rem;
-  background: #fff;
-  width: 88%;
+  padding-left: 5rem;
+
+  width: 90%;
 }
 
 .team_title {
   display: flex;
   font-size: 24px;
   color: #000000;
-  padding: 1rem 0rem 0rem 6rem;
+  padding: 1rem 0rem 1rem 3rem;
 }
 
 .teamcards__container {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  max-width: 100%px;
+  max-width: 100%;
   margin: auto;
 }
 
 .teamcards__wrapper {
   position: relative;
-  margin: 0px 50px 50px;
+  margin: 0px 50px 0px;
   align-items: center;
-  max-width: 100%x;
+  max-width: 100%;
   display: flex;
 }
 
 .teamcards__items {
   margin-bottom: 24px;
   list-style-type: none;
+  flex: 1 0 0;
+  box-sizing: border-box;
+  padding: 0;
 }
 
 .teamcards__items {
-  padding: 2rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; /* This will space your cards equally */
-  width: 100%;
-  align-items: center;
+  width: 3000px;
+  min-height: 300px;
+  height: auto;
+
+  align-items: stretch;
 }
 
 .teamcards__item__link {
@@ -56,6 +62,7 @@
 .teamcards__item__pic-wrap {
   position: relative;
   width: 100%;
+  height: auto;
   padding-top: 67%;
   overflow: hidden;
 }
@@ -122,7 +129,7 @@
 /* For larger screens, 4 cards per row */
 @media (min-width: 1300px) and (max-width: 1599px) {
   .teamcards__item {
-    flex: 0 0 23%; /* take 23% of container width */
+    flex: 0 0 calc(25% - 1%);
     margin: 0.5%; /* small margin for spacing */
   }
 }
