@@ -10,7 +10,7 @@ export default function OpenFWIResources() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <ResourcesItem
-              src="./public/images/openfwi.png"
+              src={`${process.env.PUBLIC_URL}/images/openfwi.png`}
               text={
                 <p style={{ fontFamily: "'Dancing Script', cursive" }}>
                   <strong> OpenFWI source code </strong>{" "}
@@ -20,7 +20,7 @@ export default function OpenFWIResources() {
               path="https://github.com/lanl/OpenFWI"
             />
             <ResourcesItem
-              src="images/openfwi.png"
+              src={`${process.env.PUBLIC_URL}/images/openfwi.png`}
               text={
                 <p style={{ fontFamily: "'Dancing Script', cursive" }}>
                   <strong> OpenFWI pretrained models</strong>{" "}
@@ -31,7 +31,7 @@ export default function OpenFWIResources() {
             />
 
             <ResourcesItem
-              src="images/openfwi.png"
+              src={`${process.env.PUBLIC_URL}/images/openfwi.png`}
               text={
                 <p style={{ fontFamily: "'Dancing Script', cursive" }}>
                   <strong> OpenFWI tutorial</strong>{" "}

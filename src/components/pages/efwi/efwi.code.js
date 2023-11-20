@@ -1,6 +1,12 @@
 import React from "react";
-import "../../../App.css";
+import "../../Content.css";
 
 export default function EFWICode() {
-  return <h1>EFWI Code</h1>;
+  return (
+    <div className="content-container">
+      <p className="content-Title">
+        Code release upon approval by DOE and LANL.
+      </p>
+    </div>
+  );
 }

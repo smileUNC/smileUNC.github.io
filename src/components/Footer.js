@@ -7,7 +7,6 @@ function Footer() {
   return (
     <div className="footer-container">
       <section className="footer-subscription">
-        <p className="footer-subscription-heading">Contact us</p>
         <p className="footer-subscription-text">
           If you are interested about our work and want to collaborate with us,
           please contact us as below.

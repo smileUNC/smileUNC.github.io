@@ -69,16 +69,16 @@ export default function Updates() {
               OpenFWI: Large-scale Multi-structural Benchmark Datasets for Full
               Waveform Inversion
             </a>{" "}
-            will be presented as a spotlight in NeurIPS 2022 Dataset and
-            Benchmark track.
+            was presented as a spotlight in NeurIPS 2022 Dataset and Benchmark
+            track.
           </li>
         </ul>
         <br />
         Aug 17, 2022: OpenFWI tutorial is released.
         <ul>
           <li>
-            We will update the tutorial as OpenFWI evolves and improve based on
-            the feedback from the community.
+            We updated the tutorial as OpenFWI evolves and improve based on the
+            feedback from the community.
           </li>
         </ul>
         <br />
