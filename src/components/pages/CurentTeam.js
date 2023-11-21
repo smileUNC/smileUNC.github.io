@@ -13,7 +13,7 @@ export default function CurrentTeam() {
             <TeamItem
               src={`${process.env.PUBLIC_URL}/images/team/ylin.jpg`}
               text={
-                <p style={{ fontFamily: "Arial, sans-serif" }}>
+                <p style={{}}>
                   <strong> Youzuo Lin </strong>
                   <br />
                   {"Los Alamos National Lab"}
@@ -74,7 +74,7 @@ export default function CurrentTeam() {
             <TeamItem
               src={`${process.env.PUBLIC_URL}/images/team/minzhu.png`}
               text={
-                <p style={{ fontFamily: "Arial, sans-serif" }}>
+                <p style={{}}>
                   <strong>Min Zhu </strong>
                   <br />
                   {"Yale University"}
@@ -86,7 +86,7 @@ export default function CurrentTeam() {
             <TeamItem
               src={`${process.env.PUBLIC_URL}/images/team/shengyu.jpg`}
               text={
-                <p style={{ fontFamily: "Arial, sans-serif" }}>
+                <p style={{}}>
                   <strong>Shengyu Chen </strong>
                   <br />
                   {"University of Pittsburgh"}
@@ -99,7 +99,7 @@ export default function CurrentTeam() {
             <TeamItem
               src={`${process.env.PUBLIC_URL}/images/team/yang.jpg`}
               text={
-                <p style={{ fontFamily: "Arial, sans-serif" }}>
+                <p style={{}}>
                   <strong>Yang Chen </strong>
                   <br />
                   {"Northeastern University"}

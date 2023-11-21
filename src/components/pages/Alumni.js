@@ -26,7 +26,7 @@ export default function Alumni() {
             <TeamItem
               src={`${process.env.PUBLIC_URL}/images/team/xitong.jpg`}
               text={
-                <p style={{ fontFamily: "Arial, sans-serif" }}>
+                <p style={{}}>
                   <strong> Xitong Zhang </strong>
                   <br />
                   {"Michigan State University"}
@@ -38,7 +38,7 @@ export default function Alumni() {
             <TeamItem
               src={`${process.env.PUBLIC_URL}/images/team/cyd.jpg`}
               text={
-                <p style={{ fontFamily: "Arial, sans-serif" }}>
+                <p style={{}}>
                   <strong> Chengyuan Deng </strong>
                   <br />
                   {"Los Alamos National Lab"}
@@ -50,7 +50,7 @@ export default function Alumni() {
             <TeamItem
               src={`${process.env.PUBLIC_URL}/images/team/qili.jpg`}
               text={
-                <p style={{ fontFamily: "Arial, sans-serif" }}>
+                <p style={{}}>
                   <strong> Qili Zeng </strong>
                   <br />
                   {"Qualcomm"}

@@ -12,7 +12,7 @@ function TeamItem(props) {
         >
           <figure
             className="teamcards__item__pic-wrap"
-            data-category={props.label}
+            // data-category={props.label}
           >
             <img className="teamcards__item__img" alt="Team" src={props.src} />
           </figure>

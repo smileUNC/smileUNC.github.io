@@ -4,9 +4,9 @@ import HiringItem from "./HiringItem";
 const Hiring = () => {
   const jobListings = [
     {
-      title: "PHD student",
-      about: "Team information",
-      requirements: ["experience", "papers", "Strong problem-solving skills"],
+      title: "Coming soon",
+      about: "Coming soon",
+      requirements: [],
       link: "/hiring",
     },
     // ... other job listings
