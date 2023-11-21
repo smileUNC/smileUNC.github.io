@@ -41,7 +41,11 @@ function Footer() {
           <div class="footer-logo">
             <Link to="/" className="social-logo">
               SMILE
-              <i class="far fa-smile" />
+              <img
+                src={`${process.env.PUBLIC_URL}/images/logo1.png`}
+                alt="Logo"
+                className="logo"
+              ></img>
             </Link>
           </div>
           <small class="website-rights">SMILE © 2023</small>
