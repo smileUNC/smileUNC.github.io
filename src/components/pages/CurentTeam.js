@@ -1,5 +1,5 @@
 import React from "react";
-import "./Teamcard.css";
+import "./Teamcard2.css";
 import TeamItem from "./Team_item";
 
 export default function CurrentTeam() {
@@ -70,6 +70,30 @@ export default function CurrentTeam() {
               }
               label="Graduate Research intern"
               path="https://www.linkedin.com/in/peng-jin-763606a9/"
+            />
+            <TeamItem
+              src={`${process.env.PUBLIC_URL}/images/team/minzhu.png`}
+              text={
+                <p style={{ fontFamily: "Arial, sans-serif" }}>
+                  <strong>Min Zhu </strong>
+                  <br />
+                  {"Yale University"}
+                </p>
+              }
+              label="Graduate Research intern"
+              path="https://www.linkedin.com/in/min-zhu-a9b897239/"
+            />
+            <TeamItem
+              src={`${process.env.PUBLIC_URL}/images/team/shengyu.jpg`}
+              text={
+                <p style={{ fontFamily: "Arial, sans-serif" }}>
+                  <strong>Shengyu Chen </strong>
+                  <br />
+                  {"University of Pittsburgh"}
+                </p>
+              }
+              label="Graduate Research intern"
+              path="https://www.linkedin.com/in/shengyuchen/"
             />
 
             <TeamItem

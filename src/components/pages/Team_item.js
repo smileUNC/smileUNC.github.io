@@ -1,5 +1,5 @@
 import React from "react";
-import "./Teamcard.css";
+import "./Teamcard2.css";
 function TeamItem(props) {
   return (
     <>

@@ -1,0 +1,154 @@
+.teamcards {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; /* This will make the items stretch to fill the card horizontally */
+  min-height: 300px; /* This sets a minimum height for each card */
+
+  padding: 1em; /* Padding inside the cards */
+  padding-top: 2rem;
+  padding-left: 5rem;
+
+  width: 90%;
+}
+
+.team_title {
+  display: flex;
+  font-size: 24px;
+  color: #000000;
+  padding: 1rem 0rem 1rem 3rem;
+}
+
+.teamcards__container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  max-width: 100%;
+  min-height: 300px;
+
+  margin: auto;
+}
+
+.teamcards__wrapper {
+  position: relative;
+  margin: 0px 50px 0px;
+  align-items: center;
+  max-width: 100%;
+  display: flex;
+}
+
+.teamcards__items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.teamcards__item__link {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  width: 250px; /* Fixed width */
+  height: 250px; /* Fixed height */
+  margin-bottom: 20px; /* Optional, for spacing between rows */
+}
+
+.teamcards__item__pic-wrap {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-top: 67%;
+  overflow: hidden;
+}
+
+.fade-img {
+  animation-name: fade-img;
+  animation-duration: 2s;
+}
+
+.teamcards__item__pic-wrap::after {
+  content: attr(data-category);
+  position: absolute;
+  bottom: 0;
+  margin-left: 10px;
+  padding: 6px 8px;
+  max-width: calc((100%) - 60px);
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #1f98f4;
+  box-sizing: border-box;
+}
+
+.teamcards__item__img {
+  width: 100%; /* This will make the image cover the card width */
+  height: 160px; /* Fixed height for image */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+.teamcards__item__img:hover {
+  transform: scale(1.1);
+}
+
+.teamcards__item__info {
+  padding: 20px 30px 30px;
+}
+
+.teamcards__item__text {
+  color: #252e48;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+@media only screen and (min-width: 2500px) {
+  .teamcontent__blog__container {
+    width: 84%;
+  }
+}
+@media (min-width: 1600px) {
+  .teamcards__item {
+    flex: 0 0 19%; /* take 23% of container width */
+    margin: 0.5%; /* small margin for spacing */
+  }
+}
+/* For larger screens, 4 cards per row */
+@media (min-width: 1300px) and (max-width: 1599px) {
+  .teamcards__item {
+    flex: 0 0 calc(25% - 1%);
+    margin: 0.5%; /* small margin for spacing */
+  }
+}
+@media (min-width: 900px) and (max-width: 1299px) {
+  .teamcards__item {
+    flex: 0 0 31.99%;
+    margin: 0.5%; /* small margin for spacing */
+  }
+}
+/* For medium screens, 2 cards per row */
+@media (min-width: 700px) and (max-width: 899px) {
+  .teamcards__item {
+    flex: 0 0 48%;
+    margin: 1%; /* small margin for spacing */
+  }
+}
+
+/* For small screens, 1 cards per row */
+@media (max-width: 699px) {
+  .teamcards__item {
+    flex: 0 0 99%;
+    margin: 1%; /* small margin for spacing */
+  }
+}
+
+@media only screen {
+  .teamcards__item {
+    margin-bottom: 2rem;
+  }
+}

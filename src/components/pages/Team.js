@@ -1,5 +1,5 @@
 import React from "react";
-import "./Teamcard.css";
+import "./Teamcard2.css";
 import CurrentTeam from "./CurentTeam";
 import Alumni from "./Alumni";
 import Footer from "../Footer";
