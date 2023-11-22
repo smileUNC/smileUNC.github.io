@@ -1,15 +1,14 @@
 .teamcards {
   padding-top: 2rem;
-  padding-left: 5rem;
+  padding-left: 10%;
 
-  width: 90%;
+  width: 95%;
 }
 
 .team_title {
-  display: flex;
-  font-size: 24px;
+  font-size: 30px;
   color: #000000;
-  padding: 1rem 0rem 1rem 3rem;
+  /* padding: 2rem 0rem 2rem 10%; */
 }
 
 .teamcards__container {
@@ -17,7 +16,7 @@
   flex-flow: row wrap;
   align-items: center;
   max-width: 100%;
-  margin: auto;
+  /* margin: auto; */
 }
 
 .teamcards__wrapper {
@@ -40,7 +39,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; /* This will space your cards equally */
-  width: 3000px;
+  width: 1500px;
   min-height: 300px;
   height: auto;
 

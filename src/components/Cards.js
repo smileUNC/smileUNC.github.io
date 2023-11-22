@@ -6,7 +6,7 @@ import "katex/dist/katex.min.css"; // import styles
 function Cards() {
   return (
     <div className="cards">
-      <h1>Check out our projects!</h1>
+      <div className="cards-title">Check out our projects!</div>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">

@@ -1,19 +1,20 @@
 .cards {
   padding: 4rem;
   background: #fff;
-  width: auto;
+  width: 100%;
 }
 
-h1 {
+.cards-title {
   text-align: center;
+  font-size: 30px;
 }
 
 .cards__container {
   display: flex;
   flex-flow: column;
   align-items: center;
-  max-width: 3000px;
-  width: auto;
+  width: 3000px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -28,16 +29,17 @@ h1 {
 
 .cards__item {
   display: flex;
-  width: auto;
+  width: 100%;
   flex: 1;
   margin: 0 2rem;
   border-radius: 10px;
 }
 
 .cards__item__link {
+  /* background-color: #1f98f4; */
   display: flex;
   flex-flow: column;
-  width: 100%;
+  min-width: 500px;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
