@@ -1,5 +1,4 @@
 import React from "react";
-import vid from "../videos/video-1.mp4";
 import { Button } from "./Button";
 import "./HeroSection.css";
 import "katex/dist/katex.min.css"; // import styles
@@ -8,15 +7,39 @@ import "katex/dist/katex.min.css"; // import styles
 function HeroSection() {
   return (
     <div className="hero-container">
-      <video src={vid} autoPlay loop muted />
-      <h1 style={{ color: "white", fontSize: "50px" }}>SMILE</h1>
-      <p style={{ color: "white", fontSize: "50px" }}>
-        <strong> LANL-OpenFWI (brief introduction) </strong>
-      </p>
+      <img
+        className="hero-image"
+        src={`${process.env.PUBLIC_URL}/images/smile.jpg`}
+        alt="SMILE"
+      ></img>
+      <div className="hero-text">
+        <span className="highlighted">Lab Vision</span>: Our lab tackles
+        critical issues in Energy, Geoscience, Medicine, and Biology, using
+        advanced data analytics and physics to develop innovative solutions for
+        sustainability and health. We strive for breakthroughs that offer
+        practical applications and enhance scientific understanding through
+        collaboration and public engagement.
+        <br />
+        <span className="highlighted">Research Statement</span>: SMILE Lab is
+        committed to advancing scientific research by synergizing artificial
+        intelligence with physics principles. Our work spans the innovation of
+        clean energy solutions through state-of-the-art subsurface imaging to
+        the pioneering early detection of breast cancer via advanced medical
+        imaging techniques. Our focus is on honing machine learning methods that
+        are anchored in physical laws, aiming for effective solutions to
+        real-world issues. Our efforts extend to refining computational
+        approaches for predictive analytics and advancing techniques in
+        optimization, as well as in multi-physics, multi-fidelity, and
+        multi-scale analysis for responsive and real-time decision-making.
+        Dedicated to the progress of scientific machine learning (SciML) and the
+        integration of AI into the process of scientific discovery (AI4Science),
+        we aspire to drive theoretical and computational progress, resulting in
+        practical, impactful applications.
+      </div>
       <div className="hero-btns">
         <Button
           className="btns"
-          buttonStyle="btn--outline"
+          buttonStyle="btn--primary"
           buttonSize="btn--large"
           link="/blog"
         >

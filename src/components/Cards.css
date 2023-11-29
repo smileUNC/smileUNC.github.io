@@ -1,12 +1,12 @@
 .cards {
   padding: 4rem;
-  background: #fff;
-  width: 100%;
+  height: auto;
+  margin-bottom: 100px;
 }
 
 .cards-title {
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .cards__container {
@@ -21,6 +21,7 @@
 .cards__wrapper {
   position: relative;
   margin: 50px 0 45px;
+  min-height: 50vh;
 }
 
 .cards__items {
@@ -76,21 +77,24 @@
 
 .cards__item__img {
   position: absolute;
-  top: 0;
   right: 0;
   bottom: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
   display: block;
-  width: 100%;
+  /* width: 100%; */
   max-width: 100%;
-  height: 100%;
+  /* height: auto; */
   max-height: 100%;
   object-fit: cover;
   transition: all 0.2s linear;
 }
 
 .cards__item__img:hover {
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
+  transform: translate(-50%, -50%) scale(1.1);
 }
 
 .cards__item__info {
@@ -99,7 +103,7 @@
 
 .cards__item__text {
   color: #252e48;
-  font-size: 18px;
+  font-size: 25px;
   line-height: 24px;
 }
 

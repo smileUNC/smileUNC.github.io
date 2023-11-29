@@ -1,7 +1,7 @@
 import React from "react";
 import "../../HeroSection.css";
 import "../../Content.css";
-import vid from "../../../videos/video-3.mp4";
+
 import "katex/dist/katex.min.css"; // import styles
 import { InlineMath } from "react-katex";
 
@@ -9,14 +9,14 @@ export default function EfwiText() {
   return (
     <div>
       <div className="hero-container">
-        <video controls style={{ transform: "scaleX(-1)" }} autoPlay loop muted>
+        {/* <video controls style={{ transform: "scaleX(-1)" }} autoPlay loop muted>
           <source src={vid} type="video/mp4" />
-        </video>
-        <h1 style={{ color: "white", fontSize: "80px" }}>
+        </video> */}
+        <h1 style={{ color: "black", fontSize: "80px" }}>
           <InlineMath>{"\\mathbb{E}^{FWI}"}</InlineMath>
         </h1>
         <strong>
-          <p style={{ color: "white", fontSize: "30px" }}>
+          <p style={{ color: "black", fontSize: "30px" }}>
             Benchmark Datasets for Elastic Full Waveform Inversion{" "}
           </p>
         </strong>

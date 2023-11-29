@@ -4,8 +4,8 @@ import TeamItem from "./Team_item";
 
 export default function Alumni() {
   return (
-    <div className="teamcards">
-      <div className="team_title">Alumni</div>
+    <div>
+      <div className="team_title2">Alumni</div>
 
       <div className="teamcards__container">
         <div className="teamcards__wrapper">

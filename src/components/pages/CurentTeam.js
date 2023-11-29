@@ -4,8 +4,8 @@ import TeamItem from "./Team_item";
 
 export default function CurrentTeam() {
   return (
-    <div className="teamcards">
-      <div className="team_title">Current Members</div>
+    <div>
+      <div className="team_title2">Current Members</div>
       <div className="teamcards__container">
         <div className="teamcards__wrapper">
           <ul className="teamcards__items">

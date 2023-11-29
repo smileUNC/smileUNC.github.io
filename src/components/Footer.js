@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
 
@@ -12,8 +13,12 @@ function Footer() {
           please contact us as below.
           <br />
         </p>
-        <div className="input-areas">
-          <Button buttonStyle="btn--outline" link="/contact-us">
+        <div className="btns">
+          <Button
+            buttonStyle="btn--outline"
+            buttonSize="btn--large"
+            link="/contact-us"
+          >
             Contact Us
           </Button>
         </div>
@@ -44,7 +49,7 @@ function Footer() {
               <img
                 src={`${process.env.PUBLIC_URL}/images/logo1.png`}
                 alt="Logo"
-                className="logo"
+                className="image-logo"
               ></img>
             </Link>
           </div>

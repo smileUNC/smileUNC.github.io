@@ -1,6 +1,5 @@
 import React from "react";
 import Cards from "../Cards";
-
 import Footer from "../Footer";
 import { Routes, Route } from "react-router-dom";
 import EFWI from "./efwi/efwi";

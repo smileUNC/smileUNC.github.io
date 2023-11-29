@@ -32,9 +32,8 @@ function Navbar() {
             <img
               src={`${process.env.PUBLIC_URL}/images/logo1.png`}
               alt="Logo"
-              className="logo"
+              className="image-logo"
             ></img>
-            {/* <i className="far fa-smile" /> */}
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -55,12 +54,6 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/team" className="nav-links" onClick={closeMobileMenu}>
-                Team
-              </Link>
-            </li>
-
-            <li className="nav-item">
               <Link
                 to="/publications"
                 className="nav-links"
@@ -69,6 +62,12 @@ function Navbar() {
                 Publications
               </Link>
             </li>
+            <li className="nav-item">
+              <Link to="/team" className="nav-links" onClick={closeMobileMenu}>
+                Team
+              </Link>
+            </li>
+
             <li className="nav-item">
               <Link
                 to="/updates"

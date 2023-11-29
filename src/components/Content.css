@@ -1,5 +1,5 @@
 .content-container {
-  background-color: #fff;
+  /* background-color: #fff; */
   padding: 5rem 0rem 2rem 5rem;
   /* display: flex; */
 
@@ -22,34 +22,35 @@
 
 .content-Title {
   display: flex;
-  font-size: 24px;
+  font-size: 40px;
   margin-bottom: 10px;
   color: #000000;
   padding: 0rem 5rem 0rem 0rem;
 }
 
 .content-heading {
+  font-family: Arial !important;
   margin-bottom: 24px;
   font-size: 24px;
 }
 .content-note {
-  font-family: Georgia;
-  font-size: 20px;
+  font-family: Arial !important;
+  font-size: 25px;
   width: 100%;
   color: #000000;
   padding: 1rem 5rem 1rem 0rem;
 }
 
 .content-text {
-  font-family: Georgia !important;
-  font-size: 20px;
+  font-family: Arial !important;
+  font-size: 25px;
   width: 100%;
   color: #000000;
   /* padding-bottom: 24px; */
   padding: 1rem 5rem 5rem 0rem;
 }
 .math-text {
-  font-family: "Georgia", serif !important; /* Be cautious with !important */
+  font-family: Arial !important; /* Be cautious with !important */
 }
 
 .content-image {
@@ -71,7 +72,7 @@
 .citation-code {
   white-space: pre-wrap;
   padding: 0rem;
-  font-size: 18px;
+  font-size: 20px;
   font-family: "Georgia" !important;
 }
 .citation-code pre {
