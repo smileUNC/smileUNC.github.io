@@ -60,7 +60,6 @@
 }
 
 .teamcards__item__link {
-  background-color: aqua;
   display: flex;
   flex-flow: column;
   width: 100%;
