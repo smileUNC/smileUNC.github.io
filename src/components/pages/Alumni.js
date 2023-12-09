@@ -6,7 +6,6 @@ export default function Alumni() {
   return (
     <div>
       <div className="team_title2">Alumni</div>
-
       <div className="teamcards__container">
         <div className="teamcards__wrapper">
           <ul className="teamcards__items">

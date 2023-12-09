@@ -49,7 +49,6 @@ function HeroSection() {
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn--large"
-          // onClick={console.log("hey")}
           link="https://groups.google.com/g/openfwi"
           newTab={true}
         >

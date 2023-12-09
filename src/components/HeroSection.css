@@ -11,10 +11,13 @@
 }
 
 .hero-image {
-  display: fix;
+  display: flex;
   width: 50%;
 
   padding-bottom: 50px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 .hero-container.title {
@@ -49,22 +52,45 @@
 .fa-play-circle {
   margin-left: 4px;
 }
-
-@media screen and (max-width: 960px) {
-  .hero-container > h1 {
-    font-size: 70px;
-    margin-top: -150px;
+@media screen and (min-width: 1201px) and (max-width: 1600px) {
+  .hero-container {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 0px;
+  }
+  .hero-container.title,
+  .hero-text {
+    font-size: 22px; /* Adjust font size for smaller screens */
+    padding: 10px; /* Adjust padding */
+    text-align: center; /* Center the text if needed */
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  .hero-container {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 0;
+  }
+  .hero-container.title,
+  .hero-text {
+    font-size: 20px; /* Adjust font size for smaller screens */
+    padding: 10px; /* Adjust padding */
+    text-align: center; /* Center the text if needed */
   }
 }
 
 @media screen and (max-width: 768px) {
-  .hero-container > h1 {
-    font-size: 50px;
-    margin-top: -100px;
+  .hero-container {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 0;
   }
-
-  .hero-container > p {
-    font-size: 30px;
+  .hero-container.title,
+  .hero-text {
+    width: 100%;
+    font-size: 16px; /* Adjust font size for smaller screens */
+    padding: 10px; /* Adjust padding */
+    text-align: center; /* Center the text if needed */
   }
 
   .btn-mobile {

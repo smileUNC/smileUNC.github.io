@@ -70,7 +70,7 @@ export default function Publications() {
   return (
     <div>
       <div className="content-container2">
-        <div className="content-Title">Papers for OpenFWI Datasets</div>
+        <div className="content-heading">Papers for OpenFWI Datasets</div>
         <div className="content-note">
           Note: The datasets used in previous papers may be different, we unify
           the parameters (data shape, forward modelling, training, etc.) of
@@ -89,7 +89,7 @@ export default function Publications() {
           </ul>
         </div>
 
-        <div className="content-Title">
+        <div className="content-heading">
           Papers for &nbsp;<InlineMath>{"\\mathbb{E}^{FWI}"}</InlineMath> &nbsp;
           Datasets
         </div>

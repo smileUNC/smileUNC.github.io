@@ -1,7 +1,9 @@
 .cards {
   padding: 4rem;
-  height: auto;
+
   margin-bottom: 100px;
+  width: 90%;
+  height: auto;
 }
 
 .cards-title {
@@ -11,36 +13,41 @@
 
 .cards__container {
   display: flex;
-  flex-flow: column;
-  align-items: center;
-  width: 3000px;
+  flex-flow: row wrap;
+  justify-content: space-around; /* Adjust this as needed */
+  align-items: flex-start;
   width: 100%;
   margin: 0 auto;
+  padding: 2rem; /* Adjust padding if necessary */
+  box-sizing: border-box;
 }
 
 .cards__wrapper {
-  position: relative;
-  margin: 50px 0 45px;
-  min-height: 50vh;
-}
-
-.cards__items {
-  margin-bottom: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Adjust this as needed */
+  align-items: stretch;
+  gap: 2rem;
 }
 
 .cards__item {
+  list-style: none;
+  padding: 0;
+  margin: 1rem;
   display: flex;
-  width: 100%;
-  flex: 1;
-  margin: 0 2rem;
-  border-radius: 10px;
+  flex: 1 0 21%;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-sizing: border-box;
 }
 
 .cards__item__link {
-  /* background-color: #1f98f4; */
   display: flex;
   flex-flow: column;
-  min-width: 500px;
+  width: 100%;
+  height: 100%;
+  /* min-width: 400px; */
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
@@ -107,20 +114,38 @@
   line-height: 24px;
 }
 
-@media only screen and (min-width: 1200px) {
-  .content__blog__container {
-    width: 84%;
-  }
-}
-
-@media only screen and (min-width: 1024px) {
-  .cards__items {
-    display: flex;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
+@media screen and (min-width: 900px) and (max-width: 1200px) {
   .cards__item {
-    margin-bottom: 2rem;
+    flex: 1 0 calc(50% - 4rem);
+    margin: 2rem;
+    box-sizing: border-box;
+  }
+  .cards__item__link {
+    width: 100%;
+    min-width: 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .cards-title {
+    text-align: center;
+    font-size: 20px;
+  }
+  .cards__item {
+    flex: 1 0 100%;
+  }
+  .cards__item__link {
+    width: 100%;
+    min-width: 0;
+  }
+  .cards__item__img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .cards__item__text {
+    color: #252e48;
+    font-size: 16px;
+    line-height: 16px;
   }
 }

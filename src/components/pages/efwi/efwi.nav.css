@@ -62,7 +62,7 @@
     flex-direction: row; /* Align items in a row in small screens */
   }
 }
-@media screen and (max-width: 629px) {
+@media screen and (max-width: 820px) {
   .vertical-navbar {
     display: flex;
     flex-direction: column;

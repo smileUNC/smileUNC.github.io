@@ -2,7 +2,7 @@
   padding-top: 2rem;
   padding-left: 10%;
 
-  width: 100%;
+  width: 80%;
 }
 
 .team_title1 {
@@ -12,9 +12,9 @@
   padding: 0rem 0rem 1rem 0%;
 }
 .team_title2 {
+  text-align: center;
   font-size: 30px;
   color: #000000;
-  padding: 1rem 0rem 2rem 5%;
 }
 
 .teamcards__container {
@@ -22,7 +22,13 @@
   flex-flow: row wrap;
   align-items: center;
   max-width: 100%;
-  /* margin: auto; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around; /* Adjust this as needed */
+  align-items: flex-start;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem; /* Adjust padding if necessary */
 }
 
 .teamcards__wrapper {
@@ -48,11 +54,13 @@
   width: 1500px;
   min-height: 300px;
   height: auto;
+  flex: 1 0 21%;
 
   align-items: stretch;
 }
 
 .teamcards__item__link {
+  background-color: aqua;
   display: flex;
   flex-flow: column;
   width: 100%;
@@ -153,15 +161,19 @@
 }
 
 /* For small screens, 1 cards per row */
-@media (max-width: 699px) {
+@media screen and (max-width: 699px) {
   .teamcards__item {
-    flex: 0 0 99%;
+    flex: 1 0 99%;
     margin: 1%; /* small margin for spacing */
   }
-}
-
-@media only screen {
-  .teamcards__item {
-    margin-bottom: 2rem;
+  .teamcards__item__link {
+    width: 100%;
+    min-width: 0;
+  }
+  .team_title1 {
+    font-size: 20px;
+  }
+  .team_title2 {
+    font-size: 18px;
   }
 }

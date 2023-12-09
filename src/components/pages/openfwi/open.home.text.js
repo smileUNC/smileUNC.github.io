@@ -7,19 +7,9 @@ import "katex/dist/katex.min.css"; // import styles
 export default function OpenFWIText() {
   return (
     <div>
-      <div className="hero-container">
-        {/* <video controls style={{ transform: "scaleX(-1)" }} autoPlay loop muted>
-          <source src={vid} type="video/mp4" />
-        </video> */}
-        <h1 style={{ color: "black", fontSize: "80px" }}>OpenFWI</h1>
-        <strong>
-          <p style={{ color: "black", fontSize: "30px" }}>
-            Datasets and Benchmarks for Seismic FWI with Deep Learning
-          </p>
-        </strong>
-      </div>
       <div className="content-container">
-        <p className="content-text">
+        <div className="content-heading">OpenFWI</div>
+        <div className="content-text">
           OpenFWI is a collection of large-scale, multi-structural benchmark
           datasets for machine learning driven seismic FWI. We release twelve
           datasets synthesized from different priors, including one 3D dataset.
@@ -28,7 +18,7 @@ export default function OpenFWIText() {
           is the first open-source platform to facilitate data-driven FWI
           research. It will be actively developed and the datasets are expected
           to evolve.
-        </p>
+        </div>
       </div>
       <div className="content-image">
         <img
