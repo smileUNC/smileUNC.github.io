@@ -8,15 +8,15 @@ function Footer() {
   return (
     <div className="footer-container">
       <section className="footer-subscription">
-        <p className="footer-subscription-text">
+        <div className="footer-subscription-text">
           If you are interested about our work and want to collaborate with us,
           please contact us as below.
           <br />
-        </p>
+        </div>
         <div className="btns">
           <Button
             buttonStyle="btn--outline"
-            buttonSize="btn--large"
+            buttonSize="btn--medium"
             link="/contact-us"
           >
             Contact Us

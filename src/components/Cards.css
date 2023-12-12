@@ -46,6 +46,7 @@
   display: flex;
   flex-flow: column;
   width: 100%;
+  max-width: 500px;
   height: 100%;
   /* min-width: 400px; */
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);

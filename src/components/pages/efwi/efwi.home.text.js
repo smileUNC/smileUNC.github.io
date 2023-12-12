@@ -25,6 +25,16 @@ export default function EfwiText() {
         faults, etc). The benchmark results produced by three different deep
         learning methods are provided.
       </div>
+      <div className="content-text">
+        The full paper can be found on arxiv:
+        <div>
+          <a href="https://arxiv.org/abs/2306.12386">
+            <InlineMath>{"\\mathbb{E}^{FWI}"}</InlineMath>: Multi-parameter
+            Benchmark Datasets for Elastic Full Waveform Inversion of
+            Geophysical Properties
+          </a>
+        </div>
+      </div>
 
       <div className="content-title">Highlight</div>
 

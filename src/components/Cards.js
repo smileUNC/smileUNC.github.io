@@ -52,24 +52,24 @@ function Cards() {
             />
 
             <CardItem
-              src={`${process.env.PUBLIC_URL}/images/projects/inver.png`}
+              src={`${process.env.PUBLIC_URL}/images/inversion/inver.png`}
               text={
                 <p style={{ fontFamily: "'Dancing Script', cursive" }}>
                   <strong> InversionNet</strong>{" "}
                 </p>
               }
               label="InversionNet"
-              path="/projects/inversionnet"
+              path="/projects/inversion_net"
             />
             <CardItem
-              src={`${process.env.PUBLIC_URL}/images/projects/gan.png`}
+              src={`${process.env.PUBLIC_URL}/images/gan/gan.png`}
               text={
                 <p style={{ fontFamily: "'Dancing Script', cursive" }}>
                   <strong> VelocityGAN </strong>{" "}
                 </p>
               }
               label="VelocityGAN"
-              path="/projects/velocitygan"
+              path="/projects/velocity_gan"
             />
             <CardItem
               src={`${process.env.PUBLIC_URL}/images/projects/gan.png`}
@@ -104,7 +104,7 @@ function Cards() {
               label="Tasked USCT"
               path="/projects/taskedusct"
             />
-            <CardItem
+            {/* <CardItem
               src={`${process.env.PUBLIC_URL}/images/projects/gan.png`}
               text={
                 <p style={{ fontFamily: "'Dancing Script', cursive" }}>
@@ -123,7 +123,7 @@ function Cards() {
               }
               label="InvLint"
               path="/projects/invlint"
-            />
+            /> */}
           </ul>
         </div>
       </div>
