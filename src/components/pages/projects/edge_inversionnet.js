@@ -18,7 +18,9 @@ export default function EdgeInversionNet() {
         demonstrate the feasibility of running the streamlined InversionNet. Our
         experimental results indicate that the pruned model requires up to 98.2%
         fewer computing resources, with only a moderate decrease in performance.
-        (Via collaboration with Dr. Weiwen Jiang.)
+        (Via collaboration with{" "}
+        <a href="https://jqub.github.io">Dr. Weiwen Jiang</a>
+        .)
       </div>
       <div className="content-text">
         The full paper can be found on arxiv:

@@ -8,6 +8,8 @@ import EdgeInversionNet from "./projects/edge_inversionnet";
 import QuGeo from "./projects/qugeo";
 import InversionNet from "./projects/inversionnet";
 import VelocityGAN from "./projects/velocitygan";
+import Upfwi from "./projects/upfwi";
+import TaskedUSCT from "./projects/tasked_usct";
 
 export default function Projects() {
   return (
@@ -20,6 +22,8 @@ export default function Projects() {
         <Route path="/qugeo" element={<QuGeo />} />
         <Route path="/inversion_net" element={<InversionNet />} />
         <Route path="/velocity_gan" element={<VelocityGAN />} />
+        <Route path="/upfwi" element={<Upfwi />} />
+        <Route path="/tasked_usct" element={<TaskedUSCT />} />
       </Routes>
       <Footer />
     </div>

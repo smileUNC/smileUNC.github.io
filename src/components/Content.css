@@ -1,12 +1,13 @@
 .content-container {
   /* background-color: #fff; */
-  padding: 5rem 5rem 2rem 5rem;
+
   /* display: flex; */
 
   justify-content: center;
   align-items: right;
   margin-left: 10%;
   width: 80%;
+  padding-top: 100px;
   padding-bottom: 100px;
   /* background-color: #fff; */
   /* background: url("/images/img-home.jpg") center center/cover no-repeat; */
@@ -23,20 +24,20 @@
 
 .content-heading {
   font-family: Arial !important;
-  margin-bottom: 24px;
-  font-size: 40px;
+  margin-bottom: 40px;
+  font-size: 32px;
   text-align: center;
 }
 .content-heading-2 {
   font-family: Arial !important;
   margin-bottom: 40px;
-  font-size: 36px;
+  font-size: 28px;
   text-align: center;
 }
 
 .content-title {
   display: flex;
-  font-size: 30px;
+  font-size: 24px;
   margin-top: 30px;
   margin-bottom: 10px;
   color: rgb(72, 146, 202);
@@ -45,7 +46,7 @@
 
 .content-note {
   font-family: Arial !important;
-  font-size: 25px;
+  font-size: 18px;
   width: 100%;
   color: #000000;
   padding: 1rem 5rem 1rem 0rem;
@@ -53,7 +54,7 @@
 
 .content-text {
   font-family: Arial !important;
-  font-size: 25px;
+  font-size: 20px;
   width: 100%;
   color: #000000;
   /* padding-bottom: 24px; */
@@ -68,7 +69,8 @@
   justify-content: center;
   /* margin-left: 10%; */
   /* width: 90%;  */
-  min-width: 700px;
+  min-width: 500px;
+  max-height: 500px;
   /* max-height: 400px; */
   height: auto; /* maintain the aspect ratio */
   /* padding: 0 10rem 0 0rem; */
@@ -119,8 +121,8 @@
     margin-left: 0%;
     width: 100%; /* or any desired width */
     min-width: 700px;
+
     height: auto; /* maintain the aspect ratio */
-    padding: 0 10rem 0 0rem;
   }
 }
 @media screen and (max-width: 800px) {

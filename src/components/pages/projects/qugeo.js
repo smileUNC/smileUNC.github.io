@@ -17,7 +17,8 @@ export default function QuGeo() {
         addresses the crucial need for physics-guided data scaling in
         geoscientific research and highlights the significance of
         application-specific quantum circuit design, particularly for FWI. (Via
-        collaboration with Dr. Weiwen Jiang.)
+        collaboration with <a href="https://jqub.github.io">Dr. Weiwen Jiang</a>
+        .)
       </div>
       <div className="content-text">
         The full paper can be found on arxiv:

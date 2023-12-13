@@ -85,45 +85,25 @@ function Cards() {
               path="/projects/upfwi"
             />
             <CardItem
-              src={`${process.env.PUBLIC_URL}/images/projects/gan.png`}
+              src={`${process.env.PUBLIC_URL}/images/usct/usct.jpg`}
               text={
                 <p style={{ fontFamily: "'Dancing Script', cursive" }}>
                   <strong> Tasked USCT </strong>{" "}
                 </p>
               }
               label="Tasked USCT"
-              path="/projects/taskedusct"
+              path="/projects/tasked_usct"
             />
             <CardItem
-              src={`${process.env.PUBLIC_URL}/images/projects/gan.png`}
-              text={
-                <p style={{ fontFamily: "'Dancing Script', cursive" }}>
-                  <strong> Tasked USCT </strong>{" "}
-                </p>
-              }
-              label="Tasked USCT"
-              path="/projects/taskedusct"
-            />
-            {/* <CardItem
-              src={`${process.env.PUBLIC_URL}/images/projects/gan.png`}
-              text={
-                <p style={{ fontFamily: "'Dancing Script', cursive" }}>
-                  <strong> CVPR </strong>{" "}
-                </p>
-              }
-              label="CVPR"
-              path="/projects/cvpr"
-            />
-            <CardItem
-              src={`${process.env.PUBLIC_URL}/images/projects/gan.png`}
+              src={`${process.env.PUBLIC_URL}/images/invlint/teaser_s.jpg`}
               text={
                 <p style={{ fontFamily: "'Dancing Script', cursive" }}>
                   <strong> InvLint </strong>{" "}
                 </p>
               }
-              label="InvLint"
+              label="CVPR"
               path="/projects/invlint"
-            /> */}
+            />
           </ul>
         </div>
       </div>

@@ -19,13 +19,13 @@ export default function OpenFWIText() {
           research. It will be actively developed and the datasets are expected
           to evolve.
         </div>
-      </div>
-      <div className="content-image">
-        <img
-          src={`${process.env.PUBLIC_URL}/images/gallery.jpg`}
-          alt="Models"
-          className="content-image"
-        />
+        <div className="content-image">
+          <img
+            src={`${process.env.PUBLIC_URL}/images/gallery.jpg`}
+            alt="Models"
+            className="content-image"
+          />
+        </div>
       </div>
     </div>
   );
