@@ -135,17 +135,18 @@ export default function TaskedUSCT() {
       </div>
       <div className="content-text">
         Figure 2. Examples of speed of sound maps reconstructed by FWI and
-        various instances of InversionNet trained with increasing weight of the
-        task informed loss. From left to right is the object, FWI
-        reconstruction, InversionNet reconstructions with and . The middle row
-        is a zoomed-in feature for each image highlighting differences in image
-        resolution and detected features. The bottom row is the resulting tumor
-        segmentation with the true tumor material shown in white and the
-        hallucinated tumor materials shown in red. Speed of sound estimates
-        reconstructed using FWI and the instance of InversionNet without
-        task-informed loss shows a large number of hallucinated tumors, while
-        instances of InversionNet trained with lead to accurate tumor
-        segmentation masks.
+        various instances of InversionNet trained with increasing weight{" "}
+        {"\u03B3 "}of the task informed loss. From left to right is the object,
+        FWI reconstruction, InversionNet reconstructions with {"\u03B3"}=0, 10
+        <sup>-2</sup>, 10<sup>-1</sup> and {String.fromCharCode(8734)}. The
+        middle row is a zoomed-in feature for each image highlighting
+        differences in image resolution and detected features. The bottom row is
+        the resulting tumor segmentation with the true tumor material shown in
+        white and the hallucinated tumor materials shown in red. Speed of sound
+        estimates reconstructed using FWI and the instance of InversionNet
+        without task-informed loss shows a large number of hallucinated tumors,
+        while instances of InversionNet trained with {"\u03B3"}
+        {">"}=10<sup>-1</sup> lead to accurate tumor segmentation masks.
       </div>
       <div className="content-image">
         <img
@@ -158,15 +159,17 @@ export default function TaskedUSCT() {
         Figure 3. Boxplots of RMSEs, SSIMs, and Dice coefficients across the
         testing set for reconstructions from the task-informed study. Using the
         task-informed loss reduces RMSEs and increases the SSIMs and Dice
-        coefficient. Best performance is achieved for the task informed weight .
-        The iterative FWI method outperforms the InversionNet in terms of RMSE
-        but underperforms in terms of SSIM. With the proper task-informed weight
-        () the InversionNet demonstrates better task performance than the
-        iterative FWI methods as quantified by the Dice coefficient. Figure 4.
-        Receiver operator characteristic (ROC) curve for FWI and various
-        instances of the task-informed InversionNet. Higher values of the
-        task-informed weight lead to higher AUC. Instances of InversionNet
-        trained with outperform FWI in terms of AUC.
+        coefficient. Best performance is achieved for the task informed weight{" "}
+        {"\u03B3"}=10<sup>-1</sup>. The iterative FWI method outperforms the
+        InversionNet in terms of RMSE but underperforms in terms of SSIM. With
+        the proper task-informed weight ({"\u03B3"}
+        {">"}=10<sup>-1</sup> ) the InversionNet demonstrates better task
+        performance than the iterative FWI methods as quantified by the Dice
+        coefficient. Figure 4. Receiver operator characteristic (ROC) curve for
+        FWI and various instances of the task-informed InversionNet. Higher
+        values of the task-informed weight {"\u03B3 "} lead to higher AUC.
+        Instances of InversionNet trained with {"\u03B3"}
+        {">"}=10<sup>-3</sup> outperform FWI in terms of AUC.
       </div>
     </div>
   );

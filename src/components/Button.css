@@ -30,12 +30,12 @@
 
 .btn--medium {
   padding: 8px 20px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .btn--large {
   padding: 12px 26px;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .btn--large:hover,
@@ -44,4 +44,12 @@
   background: #fff;
   color: #242424;
   transition: 250ms;
+}
+@media (max-width: 800px) {
+  .btn--large,
+  .btn--medium {
+    font-size: 16px; /* Smaller font size for small screens */
+    padding: 8px 10px;
+    min-width: 100px;
+  }
 }

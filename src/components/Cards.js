@@ -72,7 +72,7 @@ function Cards() {
               path="/projects/velocity_gan"
             />
             <CardItem
-              src={`${process.env.PUBLIC_URL}/images/projects/gan.png`}
+              src={`${process.env.PUBLIC_URL}/images/upfwi/upfwi0.jpg`}
               text={
                 <p style={{ fontFamily: "'Dancing Script', cursive" }}>
                   <strong>
@@ -95,7 +95,7 @@ function Cards() {
               path="/projects/tasked_usct"
             />
             <CardItem
-              src={`${process.env.PUBLIC_URL}/images/invlint/teaser_s.jpg`}
+              src={`${process.env.PUBLIC_URL}/images/invlint/invlint0.jpg`}
               text={
                 <p style={{ fontFamily: "'Dancing Script', cursive" }}>
                   <strong> InvLint </strong>{" "}

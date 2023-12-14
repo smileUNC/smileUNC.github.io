@@ -134,7 +134,7 @@
   margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.5rem;
   display: flex;
   align-items: center;
   margin-bottom: 16px;
@@ -146,8 +146,23 @@
 }
 
 @media screen and (max-width: 800px) {
+  .footer-container,
+  .footer-link-items,
+  .social-media-wrap,
+  .footer-link-wrapper,
+  .footer-links,
+  .social-media,
+  .social-icons,
+  .social-logo,
+  .website-rights {
+    box-sizing: border-box;
+    max-width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: auto; /* Adjust if necessary */
+    overflow-x: hidden; /* As a diagnostic tool */
+  }
   .footer-container {
-    width: 100%;
     /* padding: 4rem 0rem 2rem 0; */
     display: flex;
     flex-direction: column;

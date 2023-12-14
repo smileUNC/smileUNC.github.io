@@ -2,7 +2,7 @@
   background-color: rgb(72, 146, 202);
   /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
   font-family: "PT Sans", sans-serif;
-  height: 100px;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,7 +34,7 @@
   margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 26px;
   display: flex;
   align-items: center;
 }

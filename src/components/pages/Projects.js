@@ -10,6 +10,7 @@ import InversionNet from "./projects/inversionnet";
 import VelocityGAN from "./projects/velocitygan";
 import Upfwi from "./projects/upfwi";
 import TaskedUSCT from "./projects/tasked_usct";
+import Invlint from "./projects/invlint";
 
 export default function Projects() {
   return (
@@ -24,6 +25,7 @@ export default function Projects() {
         <Route path="/velocity_gan" element={<VelocityGAN />} />
         <Route path="/upfwi" element={<Upfwi />} />
         <Route path="/tasked_usct" element={<TaskedUSCT />} />
+        <Route path="/invlint" element={<Invlint />} />
       </Routes>
       <Footer />
     </div>
