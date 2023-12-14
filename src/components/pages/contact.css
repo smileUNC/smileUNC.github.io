@@ -1,0 +1,22 @@
+.contact-me-container {
+  width: 100%;
+  max-width: 1500px; /* Maximum width of the form */
+  margin: 0 auto; /* Centering the form */
+  padding: 20px;
+}
+
+iframe {
+  height: 993px; /* Fixed height, or you can make it relative to the width */
+  width: 100%; /* Make iframe width responsive */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .contact-me-container {
+    padding: 10px;
+  }
+
+  iframe {
+    height: auto; /* Adjust height for smaller screens */
+  }
+}
