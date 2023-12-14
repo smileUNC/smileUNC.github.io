@@ -40,11 +40,11 @@ export default function Alumni() {
                 <p style={{}}>
                   <strong> Chengyuan Deng </strong>
                   <br />
-                  {"Los Alamos National Lab"}
+                  {"Rutgers University"}
                 </p>
               }
               label="PHD"
-              path="/"
+              path="https://www.linkedin.com/in/chengyuandeng/"
             />
             <TeamItem
               src={`${process.env.PUBLIC_URL}/images/team/qili.jpg`}

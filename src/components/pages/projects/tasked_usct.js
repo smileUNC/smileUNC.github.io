@@ -34,7 +34,11 @@ export default function TaskedUSCT() {
       <div className="content-text">
         The full paper can be found on arxiv:
         <div>
-          <a href="https://arxiv.org/abs/2308.16290">
+          <a
+            href="https://arxiv.org/abs/2308.16290"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Learned Full Waveform Inversion Incorporating Task Information for
             Ultrasound Computed Tomography
           </a>

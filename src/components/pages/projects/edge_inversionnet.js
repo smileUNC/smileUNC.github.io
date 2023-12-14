@@ -19,13 +19,23 @@ export default function EdgeInversionNet() {
         experimental results indicate that the pruned model requires up to 98.2%
         fewer computing resources, with only a moderate decrease in performance.
         (Via collaboration with{" "}
-        <a href="https://jqub.github.io">Dr. Weiwen Jiang</a>
+        <a
+          href="https://jqub.github.io"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Dr. Weiwen Jiang
+        </a>
         .)
       </div>
       <div className="content-text">
         The full paper can be found on arxiv:
         <div>
-          <a href="https://arxiv.org/abs/2310.09667">
+          <a
+            href="https://arxiv.org/abs/2310.09667"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Edge-InversionNet: Enabling Efficient Inference of InversionNet on
             Edge Devices.
           </a>

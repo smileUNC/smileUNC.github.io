@@ -31,7 +31,11 @@ export default function InversionNet() {
         locations on the velocity model. The full paper can be found on arxiv:{" "}
       </div>
       <div className="content-text">
-        <a href="https://arxiv.org/abs/1811.07875">
+        <a
+          href="https://arxiv.org/abs/1811.07875"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           InversionNet: A Real-Time and Accurate Full Waveform Inversion with
           CNNs and continuous CRFs
         </a>

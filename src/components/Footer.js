@@ -15,7 +15,7 @@ function Footer() {
         </div>
         <div className="btns">
           <Button
-            buttonStyle="btn--outline"
+            buttonStyle="btn--primary"
             buttonSize="btn--medium"
             link="/contact-us"
           >

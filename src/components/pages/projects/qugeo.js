@@ -17,13 +17,24 @@ export default function QuGeo() {
         addresses the crucial need for physics-guided data scaling in
         geoscientific research and highlights the significance of
         application-specific quantum circuit design, particularly for FWI. (Via
-        collaboration with <a href="https://jqub.github.io">Dr. Weiwen Jiang</a>
+        collaboration with{" "}
+        <a
+          href="https://jqub.github.io"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Dr. Weiwen Jiang
+        </a>
         .)
       </div>
       <div className="content-text">
         The full paper can be found on arxiv:
         <div>
-          <a href="https://arxiv.org/abs/2311.12333">
+          <a
+            href="https://arxiv.org/abs/2311.12333"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             QuGeo: An End-to-end Quantum Learning Framework for Geoscience -- A
             Case Study on Full-Waveform Inversion
           </a>

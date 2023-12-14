@@ -90,7 +90,8 @@ const mediaSources = [
   {
     src: co,
     type: "gif",
-    title: "CO2 releasing",
+    title: "Carbon Sequestration Monitoring",
+    // title: "CO₂ Releasing",
     author:
       "Shihang Feng, Xitong Zhang, Brendt Wohlberg, Neill Symons, and Youzuo Lin",
     paper:

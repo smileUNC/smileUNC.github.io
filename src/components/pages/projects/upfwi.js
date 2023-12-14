@@ -34,7 +34,11 @@ export default function Upfwi() {
       <div className="content-text">
         The full paper can be found on arxiv:
         <div>
-          <a href="https://arxiv.org/abs/2110.07584">
+          <a
+            href="https://arxiv.org/abs/2110.07584"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Unsupervised Learning of Full-Waveform Inversion: Connecting CNN and
             Partial Differential Equation in a Loop
           </a>

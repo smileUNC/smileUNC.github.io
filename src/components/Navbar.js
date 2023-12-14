@@ -6,9 +6,19 @@ import "./nav2.css";
 function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
-
+  const scrollToTop = () => {
+    // Scrolls to the top of the page
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth", // for smooth scrolling
+    });
+  };
   const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
+  const closeMobileMenu = () => {
+    setClick(false);
+    scrollToTop();
+  };
 
   const showButton = () => {
     if (window.innerWidth <= 960) {
@@ -75,6 +85,19 @@ function Navbar() {
                 onClick={closeMobileMenu}
               >
                 Updates
+              </Link>
+            </li>
+
+            <li
+              className="nav-item-mobile"
+              style={{ display: button ? "none" : "block" }}
+            >
+              <Link
+                to="/hiring"
+                className="nav-links-mobile"
+                onClick={closeMobileMenu}
+              >
+                JOIN US
               </Link>
             </li>
           </ul>

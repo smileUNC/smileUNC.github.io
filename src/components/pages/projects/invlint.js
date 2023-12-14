@@ -31,9 +31,13 @@ export default function Invlint() {
         advancement in the field of geophysical inversion techniques.
       </div>
       <div className="content-text">
-        The full paper can be found on arxiv:
+        The full paper can be found on:
         <div>
-          <a href="https://arxiv.org/abs/2110.07584">
+          <a
+            href="https://proceedings.mlr.press/v162/feng22a/feng22a.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             An Intriguing Property of Geophysics Inversion
           </a>
         </div>

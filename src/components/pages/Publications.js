@@ -56,8 +56,6 @@ export default function Publications() {
       authors:
         "Renán Rojas-Gómez, Jihyun Yang, Youzuo Lin, James Theiler, Brendt Wohlberg",
     },
-  ];
-  const papers_efwi = [
     {
       title:
         "Simplifying Full Waveform Inversion via Domain-Independent Self-Supervised Learning",
@@ -66,6 +64,7 @@ export default function Publications() {
         "Yinan Feng, Yinpeng Chen, Peng Jin, Shihang Feng, Zicheng Liu and Youzuo Lin",
     },
   ];
+  const papers_efwi = [];
 
   return (
     <div>

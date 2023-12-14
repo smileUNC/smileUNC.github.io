@@ -29,6 +29,8 @@
 }
 
 .btn--medium {
+  background-color: #fff;
+  color: rgb(72, 146, 202);
   padding: 8px 20px;
   font-size: 20px;
 }

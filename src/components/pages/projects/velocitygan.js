@@ -3,7 +3,6 @@ import "../../HeroSection.css";
 import "../../Content.css";
 
 import "katex/dist/katex.min.css"; // import styles
-import { InlineMath } from "react-katex";
 
 export default function VelocityGAN() {
   return (
@@ -34,7 +33,11 @@ export default function VelocityGAN() {
         can be found on arxiv:{" "}
       </div>
       <div className="content-text">
-        <a href="https://arxiv.org/abs/1809.10262">
+        <a
+          href="https://arxiv.org/abs/1809.10262"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Data-driven Seismic Waveform Inversion: A Study on the Robustness and
           Generalization
         </a>
