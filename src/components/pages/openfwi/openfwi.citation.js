@@ -17,7 +17,7 @@ export default function OpenFWICitation() {
   return (
     <div>
       <div className="content-container">
-        <div className="content-Title">Citation</div>
+        <div className="content-title">Citation</div>
         <div className="content-text">
           If you use OpenFWI Datasets in your work, please cite{" "}
           <a

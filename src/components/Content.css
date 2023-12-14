@@ -25,7 +25,7 @@
 .content-heading {
   font-family: Arial !important;
   margin-bottom: 40px;
-  font-size: 32px;
+  font-size: 28px;
   text-align: center;
 }
 .content-heading-2 {
@@ -87,7 +87,7 @@
 .citation-code {
   white-space: pre-wrap;
   padding: 0rem;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Georgia" !important;
 }
 .citation-code pre {
