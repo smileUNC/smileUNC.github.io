@@ -10,6 +10,7 @@ import Publications from "./components/pages/Publications";
 import Hiring from "./components/pages/Hiring";
 import Blog from "./components/pages/Blog";
 import Updates from "./components/pages/Updates";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/updates" element={<Updates />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

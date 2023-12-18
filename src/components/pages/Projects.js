@@ -1,6 +1,5 @@
 import React from "react";
 import Cards from "../Cards";
-import Footer from "../Footer";
 import { Routes, Route } from "react-router-dom";
 import EFWI from "./efwi/efwi";
 import OpenFWI from "./openfwi/open";
@@ -27,7 +26,6 @@ export default function Projects() {
         <Route path="/tasked_usct" element={<TaskedUSCT />} />
         <Route path="/invlint" element={<Invlint />} />
       </Routes>
-      <Footer />
     </div>
   );
 }

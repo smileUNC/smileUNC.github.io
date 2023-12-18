@@ -1,7 +1,7 @@
 import React from "react";
 import Cards from "../Cards";
 import HeroSection from "../HeroSection";
-import Footer from "../Footer";
+
 import Plays from "./Plays";
 
 function Home() {
@@ -10,7 +10,6 @@ function Home() {
       <Plays />
       <HeroSection />
       <Cards />
-      <Footer />
     </div>
   );
 }
