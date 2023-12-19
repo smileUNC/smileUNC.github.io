@@ -1,135 +1,173 @@
-import React from "react";
+import React, { useState } from "react";
+import publications from "./papers.json";
+import { Button } from "../Button";
 import PaperItem from "./paperItem";
+import "../Button.css";
 import "../Content.css";
-import { InlineMath } from "react-katex";
+import "./publications.css";
 
 export default function Publications() {
-  const papers_openfwi = [
-    {
-      title:
-        "OpenFWI: Large-scale Multi-structural Benchmark Datasets for Full Waveform Inversion",
-      link: "https://proceedings.neurips.cc/paper_files/paper/2022/hash/27d3ef263c7cb8d542c4f9815a49b69b-Abstract-Datasets_and_Benchmarks.html",
-      authors:
-        "Chengyuan Deng, Shihang Feng, Hanchen Wang, Xitong Zhang, Peng Jin, Yinan Feng, Qili Zeng, Yinpeng Chen, Youzuo Lin",
-    },
-    {
-      title:
-        "InversionNet: An Efficient and Accurate Data-Driven Full Waveform Inversion",
-      link: "https://ieeexplore.ieee.org/document/8918045",
-      authors: "Yue Wu, Youzuo Lin",
-    },
-    {
-      title:
-        "InversionNet3D: Efficient and Scalable Learning for 3D Full Waveform Inversion",
-      link: "https://ieeexplore.ieee.org/document/9648315",
-      authors: "Qili Zeng, Shihang Feng, Brendt Wohlberg, Youzuo Lin",
-    },
-    {
-      title:
-        "Multiscale Data-driven Seismic Full-waveform Inversion with Field Data Study",
-      link: "https://ieeexplore.ieee.org/document/9556631",
-      authors: "Shihang Feng, Youzuo Lin, Brendt Wohlberg",
-    },
-    {
-      title:
-        "Unsupervised Learning of Full-Waveform Inversion: Connecting CNN and Partial Differential Equation in a Loop",
-      link: "https://openreview.net/forum?id=izvwgBic9q",
-      authors:
-        "Peng Jin, Xitong Zhang, Yinpeng Chen, Sharon Xiaolei Huang, Zicheng Liu, Youzuo Lin",
-    },
-    {
-      title: "An Intriguing Property of Geophysics Inversion",
-      link: "https://proceedings.mlr.press/v162/feng22a.html",
-      authors:
-        "Yinan Feng, Yinpeng Chen, Shihang Feng, Peng Jin, Zicheng Liu, Youzuo Lin",
-    },
-    {
-      title:
-        "Physics-Guided Data-Driven Seismic Inversion: Recent Progress and Future Opportunities in Full Waveform Inversion",
-      link: "https://www.essoar.org/doi/abs/10.1002/essoar.10511175.2",
-      authors: "Youzuo Lin, James Theiler, Brendt Wohlberg",
-    },
-    {
-      title:
-        "Physics-Consistent Data-Driven Waveform Inversion With Adaptive Data Augmentation",
-      link: "https://ieeexplore.ieee.org/document/9199263",
-      authors:
-        "Renán Rojas-Gómez, Jihyun Yang, Youzuo Lin, James Theiler, Brendt Wohlberg",
-    },
-    {
-      title:
-        "Simplifying Full Waveform Inversion via Domain-Independent Self-Supervised Learning",
-      link: "https://arxiv.org/abs/2305.13314",
-      authors:
-        "Yinan Feng, Yinpeng Chen, Peng Jin, Shihang Feng, Zicheng Liu and Youzuo Lin",
-    },
-  ];
-  const papers_efwi = [];
+  const [typeDropdownOpen, setTypeDropdownOpen] = useState(false);
+  const [yearDropdownOpen, setYearDropdownOpen] = useState(false);
+  const [topicDropdownOpen, setTopicDropdownOpen] = useState(false);
+  const [selectedFilter, setSelectedFilter] = useState({
+    type: null,
+    year: null,
+    topic: null,
+  });
+  const [filteredPublications, setFilteredPublications] =
+    useState(publications);
+
+  // Create arrays of unique types, years, and topics from your publications data
+  const types = [...new Set(publications.map((pub) => pub.type))];
+  const years = [...new Set(publications.map((pub) => pub.year))];
+  const topics = [...new Set(publications.map((pub) => pub.topic))];
+  const handleFilterChange = (filterType, value) => {
+    // Update the selected filter state
+    setSelectedFilter((prevFilters) => {
+      const newFilters = {
+        ...prevFilters,
+        [filterType]: value,
+      };
+
+      setFilteredPublications(
+        publications.filter((publication) => {
+          return (
+            (newFilters.type === null ||
+              newFilters.type === "ALL" ||
+              publication.type === newFilters.type) &&
+            (newFilters.year === null ||
+              newFilters.year === "ALL" ||
+              publication.year.toString() === newFilters.year) &&
+            (newFilters.topic === null ||
+              newFilters.topic === "ALL" ||
+              publication.topic === newFilters.topic)
+          );
+        })
+      );
+
+      return newFilters;
+    });
+
+    // Close all dropdowns
+    setTypeDropdownOpen(false);
+    setYearDropdownOpen(false);
+    setTopicDropdownOpen(false);
+  };
+
+  const isSelected = (filterType, value) =>
+    selectedFilter[filterType] === value;
+
+  const sortByYear = () => {
+    const sortedPublications = [...publications].sort((a, b) => {
+      // Assuming year is stored as a string, we need to convert it to a number
+      return parseInt(a.year, 10) - parseInt(b.year, 10);
+    });
+
+    setFilteredPublications(sortedPublications);
+    // Reset selected filters
+    setSelectedFilter({
+      type: null,
+      year: null,
+      topic: null,
+    });
+  };
 
   return (
-    <div>
-      <div className="content-container2">
-        <div className="content-heading">Papers for OpenFWI Datasets</div>
-        <div className="content-note">
-          Note: The datasets used in previous papers may be different, we unify
-          the parameters (data shape, forward modelling, training, etc.) of
-          official OpenFWI datasets.
-        </div>
-        <div className="content-text">
-          <ul>
-            {papers_openfwi.map((paper) => (
-              <PaperItem
-                key={paper.link}
-                title={paper.title}
-                link={paper.link}
-                authors={paper.authors}
-              />
+    <div className="content-container">
+      <Button
+        onClick={sortByYear}
+        buttonStyle="btn--primary"
+        buttonSize="btn--medium"
+      >
+        ALL: BY YEAR
+      </Button>
+      {/* Dropdown for Types */}
+      <div className="dropdown">
+        <Button onClick={() => setTypeDropdownOpen(!typeDropdownOpen)}>
+          {selectedFilter.type || "TYPE"}
+        </Button>
+        {typeDropdownOpen && (
+          <div className="dropdown-content">
+            {types.map((type) => (
+              <a
+                key={type}
+                className={isSelected("type", type) ? "selected" : ""}
+                onClick={() => handleFilterChange("type", type)}
+              >
+                {type}
+              </a>
             ))}
-          </ul>
-        </div>
+          </div>
+        )}
+      </div>
 
-        <div className="content-heading">
-          Papers for &nbsp;<InlineMath>{"\\mathbb{E}^{FWI}"}</InlineMath> &nbsp;
-          Datasets
-        </div>
-        <div className="content-note">
-          Note: The datasets used in previous papers may be different, we unify
-          the parameters (data shape, forward modelling, training, etc.) of
-          official &nbsp;<InlineMath>{"\\mathbb{E}^{FWI}"}</InlineMath> &nbsp;
-          datasets.
-        </div>
-        <div className="content-text">
-          <ul>
-            <li style={{ marginBottom: "10px", fontFamily: "Georgia" }}>
-              <div>
-                <a
-                  href="https://arxiv.org/abs/2306.12386"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <InlineMath math={"\\mathbb{E}^{FWI}"} />
-                  {
-                    " Multi-parameter Benchmark Datasets for Elastic Full Waveform Inversion of Geophysical Properties"
-                  }
-                </a>
-              </div>
-              <div>
-                Shihang Feng, Hanchen Wang, Chengyuan Deng, Yinan Feng, Yanhua
-                Liu, Min Zhu, Peng Jin, Yinpeng Chen, and Youzuo Lin
-              </div>
-            </li>
-          </ul>
-          <ul style={{ fontFamily: "Georgia" }}>
-            {papers_efwi.map((paper) => (
-              <PaperItem
-                key={paper.link}
-                title={paper.title}
-                link={paper.link}
-                authors={paper.authors}
-              />
+      {/* Similar dropdowns for Year and Topic */}
+      <div className="dropdown">
+        <Button onClick={() => setTopicDropdownOpen(!topicDropdownOpen)}>
+          {selectedFilter.topic || "TOPIC"}
+        </Button>
+        {topicDropdownOpen && (
+          <div className="dropdown-content" style={{ minWidth: "300px" }}>
+            {topics.map((topic) => (
+              <a
+                key={topic}
+                className={isSelected("topic", topic) ? "selected" : ""}
+                onClick={() => handleFilterChange("topic", topic)}
+              >
+                {topic}
+              </a>
             ))}
-          </ul>
-        </div>
+          </div>
+        )}
+      </div>
+      {/* Dropdown for Years */}
+      <div className="dropdown">
+        <Button onClick={() => setYearDropdownOpen(!yearDropdownOpen)}>
+          {selectedFilter.year || "YEAR"}
+        </Button>
+        {yearDropdownOpen && (
+          <div className="dropdown-content">
+            {years.map((year) => (
+              <a
+                key={year}
+                className={isSelected("year", year) ? "selected" : ""}
+                onClick={() => handleFilterChange("year", year)}
+              >
+                {year}
+              </a>
+            ))}
+          </div>
+        )}
+      </div>
+
+      <div className="selected-filters-container">
+        <span className="filter-category">Type:</span>
+        <span className="filter-value">{selectedFilter.type || "All"}</span>
+
+        <span className="filter-category">Topic:</span>
+        <span className="filter-value">{selectedFilter.topic || "All"}</span>
+
+        <span className="filter-category">Year:</span>
+        <span className="filter-value">{selectedFilter.year || "All"}</span>
+      </div>
+
+      {/* Display filtered publications */}
+      <div className="content-text">
+        {filteredPublications.length > 0 ? (
+          filteredPublications.map((publication, index) => (
+            <PaperItem
+              key={publication.id}
+              number={index + 1}
+              title={publication.title}
+              link={publication.url}
+              authors={publication.author}
+              info={publication.info}
+            />
+          ))
+        ) : (
+          <p>No publications found for the selected filter.</p>
+        )}
       </div>
     </div>
   );

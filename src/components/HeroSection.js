@@ -19,7 +19,8 @@ function HeroSection() {
         sustainability and health. We strive for breakthroughs that offer
         practical applications and enhance scientific understanding through
         collaboration and public engagement.
-        <br />
+      </div>
+      <div className="hero-text">
         <span className="highlighted">Research Statement</span>: SMILE Lab is
         committed to advancing scientific research by synergizing artificial
         intelligence with physics principles. Our work spans the innovation of

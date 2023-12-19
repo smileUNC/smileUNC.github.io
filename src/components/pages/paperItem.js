@@ -1,25 +1,34 @@
 import React from "react";
 import { InlineMath } from "react-katex";
 import "../Content.css";
+import "./publications.css";
 
-export default function PaperItem({ title, link, authors }) {
+export default function PaperItem({ number, title, link, authors, info }) {
   const containsLatex = title.includes("\\");
+
   return (
-    <li style={{ marginBottom: "10px" }}>
-      <div>
-        <a href={link} target="_blank" rel="noopener noreferrer">
-          {containsLatex ? (
-            // Render the title with LaTeX formatting
-            <span className="math-text">
-              <InlineMath math={title} />
-            </span>
-          ) : (
-            // Render the title as plain text
-            title
-          )}
-        </a>
-      </div>
-      <div>{authors}</div>
+    <li className="publication-item" style={{ marginBottom: "10px" }}>
+      <span className="publication-number">{number}. </span>
+      <span className="publication-authors">{authors}</span>
+      {", "}
+
+      <span className="publication-title">{title}</span>
+
+      {", "}
+      <span className="publication-info">{info}</span>
+
+      <span className="publication-links">
+        {link && (
+          <a
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="download-link"
+          >
+            (download)
+          </a>
+        )}
+      </span>
     </li>
   );
 }

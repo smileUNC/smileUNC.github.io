@@ -1,0 +1,211 @@
+[
+  {
+    "id": 0,
+    "title": "Enhanced prediction accuracy with uncertainty quantification in monitoring CO2 sequestration using convolutional neural networks",
+    "author": "Yanhua Liu, Xitong Zhang, Ilya Tsvankin, and Youzuo Lin",
+    "info": "under review in Geophysics, 2023.",
+    "type": "Preprint",
+    "year": "2023",
+    "topic": "Subsurface Imaging & Inversion",
+    "isSelected": false,
+    "url": "https://arxiv.org/abs/2212.04567"
+  },
+  {
+    "id": 1,
+    "title": "QuGeo: An End-to-end Quantum Learning Framework for Geoscience–A Case Study on Full-Waveform Inversion",
+    "author": "Weiwen Jiang, Youzuo Lin",
+    "info": "arXiv:2311.12333, 2023.",
+    "type": "Preprint",
+    "year": "2023",
+    "topic": "Scientific Machine Learning & Data Science",
+    "isSelected": true,
+    "url": "https://arxiv.org/abs/2311.12333"
+  },
+  {
+    "id": 2,
+    "title": "Solving Seismic Wave Equations on Variable Velocity Models with Fourier Neural Operator",
+    "author": "Bian Li, Hanchen Wang, Xiu Yang, and Youzuo Lin",
+    "info": "IEEE Transactions on Geoscience and Remote Sensing(IF: 5.63), vol. 61, pp. 1-18, 2023.",
+    "type": "Journal Paper",
+    "year": "2023",
+    "topic": "Scientific Machine Learning & Data Science",
+    "isSelected": true,
+    "url": "https://ieeexplore.ieee.org/document/10319762/"
+  },
+  {
+    "id": 3,
+    "title": "Solving Seismic Wave Equations on Variable Velocity Models with Fourier Neural Operator",
+    "author": "Congcong Yuan, Yiyu Ni, Youzuo Lin; Marine Denolle",
+    "info": "IEEE Transactions on Geoscience and Remote Sensing(IF: 5.63), vol. 61, pp. 1-18, 2023.",
+    "type": "Journal Paper",
+    "year": "2023",
+    "topic": "Earthquake Characterization & Detection",
+    "isSelected": false,
+    "url": "https://ieeexplore.ieee.org/abstract/document/10266366?casa_token=YN8c8-pRRbUAAAAA:gyCI8dEzYQ2kZgolAIOA62GHKK4wi9LncwBk5nmQP217l_EkM1z4RcdgdoKedK6XuTkUENHsKA"
+  },
+  {
+    "id": 4,
+    "title": "Kimberlina Synthetic Multiphysics Data Set for CO2 Monitoring Investigations",
+    "author": "David Alumbaugh, Erika Gasperikova, Dustin Crandall, Michael Commer, Shihang Feng, William Harbert, Yaoguo Li, Youzuo Lin and Savini Samarasinghe",
+    "info": "Geoscience Data Journal (IF: 2.67), 2023 (accepted).",
+    "type": "Journal Paper",
+    "year": "2023",
+    "topic": "Scientific Machine Learning & Data Science",
+    "isSelected": false,
+    "url": "https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/gdj3.191"
+  },
+  {
+    "id": 5,
+    "title": "Physics-Guided Data- Driven Seismic Inversion: Recent Progress and Future Opportunities in Full Waveform Inversion",
+    "author": "Youzuo Lin, James Theiler, and Brendt Wohlberg",
+    "info": "IEEE Signal Processing Magazine (IF: 15.20), 40(1), 115-133, 2023.",
+    "type": "Journal Paper",
+    "year": "2023",
+    "topic": "Scientific Machine Learning & Data Science",
+    "isSelected": true,
+    "url": "https://ieeexplore.ieee.org/document/10004771"
+  },
+  {
+    "id": 6,
+    "title": "Joint Physics-Based and Data-Driven Time-Lapse Seismic Inversion: Mitigating Data Scarcity",
+    "author": "Yanhua Liu, Shihang Feng, Ilya Tsvankin, David Alumbaugh, and Youzuo Lin",
+    "info": "Geophysics (IF: 3.2), 88(1), K1-K12, 2023.",
+    "type": "Journal Paper",
+    "year": "2023",
+    "topic": "Clean Energy & Carbon Management",
+    "isSelected": false,
+    "url": "https://library.seg.org/doi/abs/10.1190/geo2022-0050.1"
+  },
+  {
+    "id": 7,
+    "title": "Real-Time Deep-Learning Seismic-Full-Waveform Inversion for Estimat- ing CO2 Saturation and Uncertainty for Monitoring Geological Carbon Storage",
+    "author": "Evan Schankee Um, David Alumbaugh, Youzuo Lin and Shihang Feng",
+    "info": "Geophysical Prospecting (IF: 1.7), 2022 (accepted).",
+    "type": "Journal Paper",
+    "year": "2022",
+    "topic": "Clean Energy & Carbon Management",
+    "isSelected": false,
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/1365-2478.13197"
+  },
+  {
+    "id": 8,
+    "title": "Seismic Waveform Inversion Capability on Resource-constrained Edge Devices",
+    "author": "Daniel Manu, Petro Mushidi Tshakwanda, Youzuo Lin, Weiwen Jiang,and Lei Yang",
+    "info": "Journal of Imaging, 2022 (accepted).",
+    "type": "Journal Paper",
+    "year": "2022",
+    "topic": "Scientific Machine Learning & Data Science",
+    "isSelected": false,
+    "url": "https://www.mdpi.com/2313-433X/8/12/312"
+  },
+  {
+    "id": 9,
+    "title": "Deep- Learning Multiphysics Network for Imaging CO2 Saturation and Estimat- ing Uncertainty in Geological Carbon Storage",
+    "author": "Evan Schankee Um, David Alumbaugh, Michael Commer, Erika Gasperikova, Yaoguo Li, Savini Samarasinghe, Youzuo Lin and Shihang Feng",
+    "info": "Geophysical Prospecting (IF: 1.7), 2022 (accepted).",
+    "type": "Journal Paper",
+    "year": "2022",
+    "topic": "Clean Energy & Carbon Management",
+    "isSelected": false,
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/1365-2478.13257"
+  },
+  {
+    "id": 10,
+    "title": "Deep Learning Categorization of Infrasound Array Processing Data",
+    "author": "Jordan Bishop, Philip Blom, Jeremy Webster, William Reichard-Flynn, and Youzuo Lin",
+    "info": "Journal of the Acoustical Society of America (IF: 2.5), 152(4), 2022.",
+    "type": "Journal Paper",
+    "year": "2022",
+    "topic": "Earthquake Characterization & Detection",
+    "isSelected": false,
+    "url": "https://asa.scitation.org/doi/abs/10.1121/10.0014903"
+  },
+  {
+    "id": 11,
+    "title": "Spatio-Temporal Graph Convolutional Networks for Earthquake Source Characterization",
+    "author": "Xiton Zhang, Will Reichard-Flynn, Miao Zhang, Matthew Hirn, and Youzuo Lin",
+    "info": "Journal of Geophysical Research: Solid Earth (IF: 3.84), 127(11), e2022JB024401, 2022.",
+    "type": "Journal Paper",
+    "year": "2022",
+    "topic": "Earthquake Characterization & Detection",
+    "isSelected": true,
+    "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022JB024401"
+  },
+  {
+    "id": 12,
+    "title": "Making Invisible Visible: Data-Driven Seismic Inversion with Physics-Informed Data Augmentation",
+    "author": "Yuxin Yang, Xitong Zhang, Qiang Guan, and Youzuo Lin",
+    "info": "IEEE Transactions on Geoscience and Remote Sensing (IF: 5.63), Vol. 60, pp. 1 - 16, 2022.",
+    "type": "Journal Paper",
+    "year": "2022",
+    "topic": "Scientific Machine Learning & Data Science",
+    "isSelected": true,
+    "url": "https://ieeexplore.ieee.org/document/9684864"
+  },
+  {
+    "id": 13,
+    "title": "Double-Difference Seismic-Waveform Inversion for Quantifying Subsurface Geophysical Properties Changes",
+    "author": "Youzuo Lin, Zhigang Zhang, and Lianjie Huang, Book Chapter",
+    "info": "Geophysical Monitoring for Geologic Carbon Storage, 2022.",
+    "type": "Journal Paper",
+    "year": "2022",
+    "topic": "Subsurface Imaging & Inversion",
+    "isSelected": false,
+    "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/9781119156871.ch11"
+  },
+  {
+    "id": 14,
+    "title": "Multiscale Data-driven Computational Seismic Imaging: A Field Data Study",
+    "author": "Shihang Feng, Youzuo Lin, and Brendt Wohlberg",
+    "info": "IEEE Transactions on Geoscience and Remote Sensing (IF: 5.63), vol. 60, pp. 1-14, 2021.",
+    "type": "Journal Paper",
+    "year": "2021",
+    "topic": "Subsurface Imaging & Inversion",
+    "isSelected": true,
+    "url": "https://ieeexplore.ieee.org/document/9556631"
+  },
+  {
+    "id": 15,
+    "title": "Consensus equilibrium for subsurface delineation",
+    "author": "Hyung Jun Yang, Youzuo Lin, Brendt Wohlberg, and Daniel Tartakovsky",
+    "info": "Water Resources Research (IF: 4.36), 57(10), e2021WR030151, 2021.",
+    "type": "Journal Paper",
+    "year": "2021",
+    "topic": "Subsurface Imaging & Inversion",
+    "isSelected": false,
+    "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021WR030151"
+  },
+  {
+    "id": 16,
+    "title": "Machine Learning Provides Effective Leak Detection in Carbon Sequestration Projects",
+    "author": "Saurabh Sinha, Rafael Pires de Lima, Youzuo Lin, Alexander Y. Sun, Neill Symons, Rajesh Pawar, and George Guthrie",
+    "info": "Geoscience Data Journal (IF: 2.67), 2023 (accepted).",
+    "type": "Journal Paper",
+    "year": "2021",
+    "topic": "Clean Energy & Carbon Management",
+    "isSelected": false,
+    "url": "https://jpt.spe.org/machine-learning-provides-effective-leak-detection-in-carbon-sequestration-projects"
+  },
+  {
+    "id": 17,
+    "title": "SeismoGen: Earthquake Simulation Using Generative Adversarial Networks",
+    "author": "Tiantong Wang, Daniel Trugman, and Youzuo Lin",
+    "info": "Journal of Geophysical Research: Solid Earth (IF: 3.84), 126 (4), e2020JB020077, 2021.",
+    "type": "Journal Paper",
+    "year": "2021",
+    "topic": "Earthquake Characterization & Detection",
+    "isSelected": true,
+    "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JB020077?af=R"
+  },
+  {
+    "id": 18,
+    "title": "Connect the Dots: In Situ 4D Seismic Monitoring of CO2 Storage with Spatio-temporal CNNs",
+    "author": "Shihang Feng, Xitong Zhang, Brendt Wohlberg, Neill Symons, and Youzuo Lin",
+    "info": "IEEE Transactions on Geoscience and Remote Sensing, vol. 60, pp. 1-16, 2021.",
+    "type": "Journal Paper",
+    "year": "2021",
+    "topic": "Scientific Machine Learning & Data Science",
+    "isSelected": true,
+    "url": "https://ieeexplore.ieee.org/document/9565220"
+  }
+]
