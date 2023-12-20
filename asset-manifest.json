@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/team-website/static/css/main.8ee82176.css",
-    "main.js": "/team-website/static/js/main.7566fe22.js",
+    "main.css": "/team-website/static/css/main.5958f762.css",
+    "main.js": "/team-website/static/js/main.bdfd9b04.js",
     "static/media/comp.gif": "/team-website/static/media/comp.f3da22f764ddbceb1714.gif",
     "static/media/lanl.gif": "/team-website/static/media/lanl.e7c91e401dfd55441698.gif",
     "static/media/inv.gif": "/team-website/static/media/inv.45353260b41feee6e1f1.gif",
@@ -68,11 +68,11 @@
     "static/media/KaTeX_Size3-Regular.woff": "/team-website/static/media/KaTeX_Size3-Regular.7947224e8a9914fa332b.woff",
     "static/media/KaTeX_Size3-Regular.woff2": "/team-website/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/team-website/index.html",
-    "main.8ee82176.css.map": "/team-website/static/css/main.8ee82176.css.map",
-    "main.7566fe22.js.map": "/team-website/static/js/main.7566fe22.js.map"
+    "main.5958f762.css.map": "/team-website/static/css/main.5958f762.css.map",
+    "main.bdfd9b04.js.map": "/team-website/static/js/main.bdfd9b04.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ee82176.css",
-    "static/js/main.7566fe22.js"
+    "static/css/main.5958f762.css",
+    "static/js/main.bdfd9b04.js"
   ]
 }
