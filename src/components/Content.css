@@ -24,8 +24,8 @@
 
 .content-heading {
   font-family: Arial !important;
-  margin-top: 28px;
-  margin-bottom: 40px;
+  /* margin-top: 10px; */
+
   font-size: 28px;
   text-align: center;
 }

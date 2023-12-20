@@ -61,7 +61,7 @@ export default function Publications() {
   const sortByYear = () => {
     const sortedPublications = [...publications].sort((a, b) => {
       // Assuming year is stored as a string, we need to convert it to a number
-      return parseInt(a.year, 10) - parseInt(b.year, 10);
+      return parseInt(b.year, 10) - parseInt(a.year, 10);
     });
 
     setFilteredPublications(sortedPublications);
@@ -75,6 +75,7 @@ export default function Publications() {
 
   return (
     <div className="content-container">
+      <div className="content-heading">Publications</div>
       <Button
         onClick={sortByYear}
         buttonStyle="btn--primary"
