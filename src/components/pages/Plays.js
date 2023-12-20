@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./plays.css"; // Your CSS file for styling
 
 import co from "../../videos/co.gif";
@@ -9,6 +9,13 @@ import inv from "../../videos/inv.gif";
 
 const MediaPlayer = ({ mediaList }) => {
   const [currentMediaIndex, setCurrentMediaIndex] = useState(0);
+  // Preload images
+  useEffect(() => {
+    mediaList.forEach((media) => {
+      const img = new Image();
+      img.src = media.src;
+    });
+  }, [mediaList]); // This effect will run once on mount
 
   const nextMedia = () => {
     setCurrentMediaIndex((current) => (current + 1) % mediaList.length);

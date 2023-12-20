@@ -102,7 +102,12 @@ function Navbar() {
             </li>
           </ul>
           {button && (
-            <Button buttonStyle="btn--outline" link="/hiring">
+            <Button
+              className="btns"
+              buttonStyle="btn--outline"
+              buttonSize="btn--medium"
+              link="/hiring"
+            >
               JOIN US
             </Button>
           )}

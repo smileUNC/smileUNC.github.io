@@ -2,8 +2,8 @@ import React from "react";
 import "./Button.css";
 import { Link } from "react-router-dom";
 
-const STYLES = ["btn--primary", "btn--outline", "btn--test"];
-const SIZES = ["btn--medium", "btn--large"];
+const STYLES = ["btn--primary", "btn--outline", "btns--active"];
+const SIZES = ["btn--small", "btn--medium", "btn--large"];
 
 export const Button = ({
   children,
@@ -12,6 +12,7 @@ export const Button = ({
   buttonStyle,
   buttonSize,
   link,
+  extraClass = "",
   newTab = false, // Added newTab prop with default value as false
 }) => {
   const checkButtonStyle = STYLES.includes(buttonStyle)
@@ -19,6 +20,8 @@ export const Button = ({
     : STYLES[0];
 
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
+  // The 'extraClass' prop allows for additional styling like 'active'
+  const className = `btn  ${extraClass} ${checkButtonStyle} ${checkButtonSize} btn-mobile`;
 
   // Render an anchor tag if newTab is true
   const renderLink = () => {
@@ -26,7 +29,7 @@ export const Button = ({
       return (
         <a
           href={link}
-          className={`btn ${checkButtonStyle} ${checkButtonSize} btn-mobile`}
+          className={className}
           target="_blank" // Opens in a new tab/window
           rel="noopener noreferrer" // For security reasons
           onClick={onClick}
@@ -37,11 +40,7 @@ export const Button = ({
     } else {
       return (
         <Link to={link} className="btn-mobile">
-          <button
-            className={`btn ${checkButtonStyle} ${checkButtonSize}`}
-            onClick={onClick}
-            type={type}
-          >
+          <button className={className} onClick={onClick} type={type}>
             {children}
           </button>
         </Link>

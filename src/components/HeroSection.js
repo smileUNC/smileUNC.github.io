@@ -40,16 +40,16 @@ function HeroSection() {
       <div className="hero-btns">
         <Button
           className="btns"
-          buttonStyle="btn--primary"
-          buttonSize="btn--large"
+          buttonStyle="btn--outline"
+          buttonSize="btn--medium"
           link="/blog"
         >
           Blog
         </Button>
         <Button
           className="btns"
-          buttonStyle="btn--primary"
-          buttonSize="btn--large"
+          buttonStyle="btn--outline"
+          buttonSize="btn--medium"
           link="https://groups.google.com/g/openfwi"
           newTab={true}
         >

@@ -1,9 +1,17 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "../efwi/efwi.nav.css";
 import "katex/dist/katex.min.css"; // import styles
 
 export default function OpenFWINav() {
+  const location = useLocation();
+  React.useEffect(() => {
+    // Scrolls to the top every time the location changes
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, [location]);
   return (
     <>
       <nav className="vertical-navbar">

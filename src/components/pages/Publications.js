@@ -17,6 +17,7 @@ export default function Publications() {
   });
   const [filteredPublications, setFilteredPublications] =
     useState(publications);
+  const [activeButton, setActiveButton] = useState("all"); // 'all' or 'selected'
 
   // Create arrays of unique types, years, and topics from your publications data
   const types = [...new Set(publications.map((pub) => pub.type))];
@@ -45,6 +46,7 @@ export default function Publications() {
           );
         })
       );
+      setActiveButton("");
 
       return newFilters;
     });
@@ -58,7 +60,7 @@ export default function Publications() {
   const isSelected = (filterType, value) =>
     selectedFilter[filterType] === value;
 
-  const sortByYear = () => {
+  const showAll = () => {
     const sortedPublications = [...publications].sort((a, b) => {
       // Assuming year is stored as a string, we need to convert it to a number
       return parseInt(b.year, 10) - parseInt(a.year, 10);
@@ -71,15 +73,35 @@ export default function Publications() {
       year: null,
       topic: null,
     });
+    setActiveButton("all");
+    // console.log(activeButton);
+  };
+  const showSelectedPapers = () => {
+    // Filter publications that have the `isSelected` property set to true
+    setFilteredPublications(publications.filter((pub) => pub.isSelected));
+    setSelectedFilter({
+      type: null,
+      year: null,
+      topic: null,
+    });
+    setActiveButton("selected");
+    console.log(activeButton);
   };
 
   return (
     <div className="content-container">
       <div className="content-heading">Publications</div>
       <Button
-        onClick={sortByYear}
-        buttonStyle="btn--primary"
-        buttonSize="btn--medium"
+        className="btns"
+        onClick={showSelectedPapers}
+        extraClass={activeButton === "selected" ? "btns--active" : ""}
+      >
+        SELECTED
+      </Button>
+      <Button
+        className="btns"
+        extraClass={activeButton === "all" ? "btns--active" : ""}
+        onClick={showAll}
       >
         ALL: BY YEAR
       </Button>

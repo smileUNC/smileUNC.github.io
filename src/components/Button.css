@@ -15,7 +15,7 @@
 }
 
 .btn--primary {
-  background-color: var(--primary);
+  /* background-color: var(--primary); */
   color: #ffffff;
   border: 1px solid var(--primary);
 }
@@ -28,6 +28,8 @@
   transition: all 0.3s ease-out;
 }
 .btn--small {
+  background-color: #fff;
+  color: rgb(72, 146, 202);
   padding: 8px 20px;
   font-size: 16px;
 }
@@ -43,11 +45,15 @@
   padding: 12px 26px;
   font-size: 22px;
 }
-
+.btns--active {
+  background-color: rgb(72, 146, 202);
+  color: white;
+}
+.btn--small:hover,
 .btn--large:hover,
 .btn--medium:hover {
   transition: all 0.3s ease-out;
-  background: #fff;
+  background: #89aadc;
   color: #242424;
   transition: 250ms;
 }
@@ -55,6 +61,12 @@
   .btn--large,
   .btn--medium {
     font-size: 16px; /* Smaller font size for small screens */
+    padding: 8px 10px;
+    min-width: 100px;
+  }
+
+  .btn--small {
+    font-size: 14px; /* Smaller font size for small screens */
     padding: 8px 10px;
     min-width: 100px;
   }

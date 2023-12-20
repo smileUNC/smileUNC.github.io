@@ -23,9 +23,9 @@ function Footer() {
           </Button>
         </div>
       </section>
-      <div class="footer-links">
+      <div className="footer-links">
         <div className="footer-link-wrapper">
-          <div class="footer-link-items">
+          <div className="footer-link-items">
             <h2>About Us</h2>
             <Link to="/">Home</Link>
             <Link to="/team">Meet our team</Link>
@@ -33,7 +33,7 @@ function Footer() {
           </div>
         </div>
         <div className="footer-link-wrapper">
-          <div class="footer-link-items">
+          <div className="footer-link-items">
             <h2>News</h2>
             <Link to="/blog">Blog</Link>
             <Link to="/publications">Publications</Link>
@@ -41,9 +41,9 @@ function Footer() {
           </div>
         </div>
       </div>
-      <section class="social-media">
-        <div class="social-media-wrap">
-          <div class="footer-logo">
+      <section className="social-media">
+        <div className="social-media-wrap">
+          <div className="footer-logo">
             <Link to="/" className="social-logo">
               SMILE
               <img
@@ -53,10 +53,10 @@ function Footer() {
               ></img>
             </Link>
           </div>
-          <small class="website-rights">SMILE © 2023</small>
-          <div class="social-icons">
+          <small className="website-rights">SMILE © 2023</small>
+          <div className="social-icons">
             <Link
-              class="social-icon-link email"
+              className="social-icon-link email"
               to="/"
               target="_blank"
               aria-label="Email"
@@ -64,7 +64,7 @@ function Footer() {
               <i class="fa fa-envelope"></i>
             </Link>
             <Link
-              class="social-icon-link github"
+              className="social-icon-link github"
               to="https://github.com/lanl/OpenFWI"
               target="_blank"
               aria-label="Github"
@@ -72,7 +72,7 @@ function Footer() {
               <i class="fab fa-github" />
             </Link>
             <Link
-              class="social-icon-link linkedin"
+              className="social-icon-link linkedin"
               to="https://www.linkedin.com/in/youzuo-lin-3a388616/"
               target="_blank"
               aria-label="LinkedIn"

@@ -1,9 +1,17 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "./efwi.nav.css";
 import { InlineMath } from "react-katex";
 
 export default function EFWINav() {
+  const location = useLocation();
+  React.useEffect(() => {
+    // Scrolls to the top every time the location changes
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, [location]); // This effect will run when location changes
   return (
     <>
       <nav className="vertical-navbar">
