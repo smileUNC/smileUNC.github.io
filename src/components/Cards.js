@@ -24,7 +24,7 @@ function Cards() {
               src={`${process.env.PUBLIC_URL}/images/openfwi.png`}
               text={
                 <p style={{ fontFamily: "'Dancing Script', cursive" }}>
-                  <strong> Open FWI with Deep Learning </strong>{" "}
+                  <strong> OpenFWI with Deep Learning </strong>{" "}
                 </p>
               }
               label="openFWI"

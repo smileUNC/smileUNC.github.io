@@ -21,7 +21,9 @@ export default function Publications() {
 
   // Create arrays of unique types, years, and topics from your publications data
   const types = [...new Set(publications.map((pub) => pub.type))];
-  const years = [...new Set(publications.map((pub) => pub.year))];
+  const years = [...new Set(publications.map((pub) => pub.year))].sort(
+    (a, b) => b - a
+  );
   const topics = [...new Set(publications.map((pub) => pub.topic))];
   const handleFilterChange = (filterType, value) => {
     // Update the selected filter state
