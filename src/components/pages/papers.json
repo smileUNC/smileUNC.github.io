@@ -1131,5 +1131,27 @@
     "topic": "Medical Imaging & Cancer Detection",
     "isSelected": false,
     "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/8320/83200H/Detection-of-breast-microcalcifications-using-synthetic-aperture-ultrasound/10.1117/12.910656.short"
+  },
+  {
+    "id": 103,
+    "title": "Learned Full Waveform Inversion Incorporating Task Information for Ultrasound Computed Tomography",
+    "author": "Luke Lozenski, Hanchen Wang, Fu Li, Mark Anastasio, Brendt Wohlberg, Youzuo Lin, and Umberto Villa",
+    "info": "IEEE Transactions on Computational Imaging, 1-15, 2024.",
+    "type": "Journal Paper",
+    "year": "2024",
+    "topic": "Medical Imaging & Cancer Detection",
+    "isSelected": true,
+    "url": "https://ieeexplore.ieee.org/abstract/document/10384850"
+  },
+  {
+    "id": 104,
+    "title": "A Physics-guided Generative AI Toolkit for Geophysical Monitoring",
+    "author": "Junhuan Yang, Hanchen Wang, Yi Sheng, Youzuo Lin, Lei Yang",
+    "info": "arXiv:2401.03131, 2024.",
+    "type": "Preprint",
+    "year": "2024",
+    "topic": "Scientific Machine Learning & Data Science",
+    "isSelected": false,
+    "url": "https://arxiv.org/abs/2401.03131"
   }
 ]

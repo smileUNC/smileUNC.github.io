@@ -6,7 +6,7 @@ const HiringItem = ({ title, about, requirements, link }) => {
     <div className="hiring-item-card">
       <h3 className="job-title">{title}</h3>
       <p className="job-about">{about}</p>
-      <h3>Requirements</h3>
+      <h3>Basic Requirements</h3>
       <ul className="job-requirements">
         {requirements.map((req, index) => (
           <li key={index}>{req}</li>

@@ -6,6 +6,7 @@ import lanl from "../../videos/lanl.gif";
 import phy from "../../videos/phy.jpg";
 import comp from "../../videos/comp.gif";
 import inv from "../../videos/inv.gif";
+import ult from "../../videos/3.jpeg";
 
 const MediaPlayer = ({ mediaList }) => {
   const [currentMediaIndex, setCurrentMediaIndex] = useState(0);
@@ -123,6 +124,16 @@ const mediaSources = [
     paper:
       "InversionNet3D: Efficient and Scalable Learning for 3D Full Waveform Inversion",
     vol: "IEEE Transactions on Geoscience and Remote Sensing (IF: 5.63) , vol 60, pp. 1-16, 2021.",
+  },
+  {
+    src: ult,
+    type: "image",
+    title: "Data-Driven Ultrasound Tomography for Breast Cancer Detection",
+    author:
+      "Luke Lozenski, Hanchen Wang, Fu Li, Mark Anastasio, Brendt Wohlberg, Youzuo Lin, and Umberto Villa",
+    paper:
+      "Learned Full Waveform Inversion Incorporating Task Information for Ultrasound Computed Tomography",
+    vol: "IEEE Transactions on Computational Imaging, 1-15, 2024.",
   },
 ];
 

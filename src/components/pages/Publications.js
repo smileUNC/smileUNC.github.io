@@ -33,21 +33,27 @@ export default function Publications() {
         [filterType]: value,
       };
 
-      setFilteredPublications(
-        publications.filter((publication) => {
-          return (
-            (newFilters.type === null ||
-              newFilters.type === "ALL" ||
-              publication.type === newFilters.type) &&
-            (newFilters.year === null ||
-              newFilters.year === "ALL" ||
-              publication.year.toString() === newFilters.year) &&
-            (newFilters.topic === null ||
-              newFilters.topic === "ALL" ||
-              publication.topic === newFilters.topic)
-          );
-        })
+      // First, filter the publications based on the new filters
+      let updatedPublications = publications.filter((publication) => {
+        return (
+          (newFilters.type === null ||
+            newFilters.type === "ALL" ||
+            publication.type === newFilters.type) &&
+          (newFilters.year === null ||
+            newFilters.year === "ALL" ||
+            publication.year.toString() === newFilters.year) &&
+          (newFilters.topic === null ||
+            newFilters.topic === "ALL" ||
+            publication.topic === newFilters.topic)
+        );
+      });
+
+      // Then, sort the filtered publications by year in descending order
+      updatedPublications.sort(
+        (a, b) => parseInt(b.year, 10) - parseInt(a.year, 10)
       );
+
+      setFilteredPublications(updatedPublications);
       setActiveButton("");
 
       return newFilters;
@@ -80,7 +86,11 @@ export default function Publications() {
   };
   const showSelectedPapers = () => {
     // Filter publications that have the `isSelected` property set to true
-    setFilteredPublications(publications.filter((pub) => pub.isSelected));
+    const selectedAndSortedPublications = publications
+      .filter((pub) => pub.isSelected)
+      .sort((a, b) => parseInt(b.year, 10) - parseInt(a.year, 10)); // Sort by year after filtering
+
+    setFilteredPublications(selectedAndSortedPublications);
     setSelectedFilter({
       type: null,
       year: null,
