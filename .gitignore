@@ -1,2 +1,22 @@
+# dependencies
 node_modules
+
+# production build (published to the gh-pages branch by `npm run deploy`)
+dist
 build
+
+# single-file offline copies made by `npm run build:offline`
+offline
+
+# logs
+*.log
+npm-debug.log*
+
+# local env files
+*.local
+
+# editors / OS
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store

@@ -1,0 +1,19 @@
+// GitHub Codespaces setup: on the repository page choose Code → Codespaces → Create codespace.
+// It installs the packages, starts the dev server and opens the site preview in a new tab.
+// https://containers.dev/implementors/json_reference/
+{
+  "name": "OmniWave Lab website",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
+  "updateContentCommand": "npm install",
+  "postAttachCommand": {
+    "site preview": "npm run dev"
+  },
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": { "label": "Site preview (live reload)", "onAutoForward": "openBrowser" },
+    "4173": { "label": "Production build preview", "onAutoForward": "openBrowser" }
+  },
+  "customizations": {
+    "codespaces": { "openFiles": ["README.md"] }
+  }
+}

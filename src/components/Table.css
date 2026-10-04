@@ -1,160 +1,67 @@
-/* Table */
+/* Styles for the hand-written E^FWI dataset/benchmark tables
+   (.fl-table markup). New tables should use <DataTable> instead. */
+
 .table-container {
-  margin-left: 10%;
-  width: 90%;
+  width: 100%;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: clamp(32px, 5vw, 56px) var(--gutter) clamp(40px, 6vw, 72px);
 }
 
-* {
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-}
-body {
-  font-family: Helvetica;
-  -webkit-font-smoothing: antialiased;
-  background: rgb(248, 248, 248);
-}
-.benchmark h2,
-.dataset h2 {
-  text-align: center;
-  font-size: 24px;
-  /* text-transform: uppercase; */
-  letter-spacing: 1px;
-  color: rgb(0, 0, 0);
-  padding: 30px 0;
+.benchmark > h1,
+.dataset > h1 {
+  margin-bottom: 8px;
+  font-size: clamp(1.6rem, 3vw, 2.1rem);
+  color: var(--navy);
 }
 
 .benchmark h3,
 .dataset h3 {
-  text-align: left;
-  font-size: 20px;
-  /* text-transform: uppercase; */
-  letter-spacing: 1px;
-  color: rgb(0, 0, 0);
-  padding: 10px 10px 10px 100px;
+  margin: 36px 0 12px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--navy);
 }
-table.h4 {
-  text-align: left;
-  font-size: 18px;
-  letter-spacing: 1px;
-  color: rgb(0, 0, 0);
-  padding: 10px 10px 10px 100px;
+.dataset > h3:first-of-type {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--muted);
 }
-
-/* Table Styles */
 
 .table-wrapper {
-  margin: 10px 70px 70px;
-  box-shadow: 0px 35px 50px rgba(0, 0, 0, 0.2);
+  position: relative;
+  width: 100%;
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #fff;
+  box-shadow: var(--shadow-sm);
 }
 
 .fl-table {
-  border-radius: 5px;
-  font-size: 16px;
-  font-weight: normal;
-  border: none;
-  border-collapse: collapse;
   width: 100%;
-  max-width: 100%;
+  border-collapse: collapse;
+  font-size: 0.925rem;
+  font-variant-numeric: tabular-nums;
   white-space: nowrap;
-  background-color: white;
+  background: #fff;
 }
-
-.fl-table td,
-.fl-table th {
-  text-align: center;
-  padding: 8px;
-}
-
+.fl-table th,
 .fl-table td {
-  border-right: 1px solid #f8f8f8;
-  font-size: 16px;
+  padding: 11px 16px;
+  text-align: center;
+  border-bottom: 1px solid var(--line);
 }
-
 .fl-table thead th {
-  color: #ffffff;
-  background: #4fc3a1;
+  background: var(--bg-soft);
+  color: var(--navy);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--line-strong);
 }
-
-.fl-table thead th:nth-child(odd) {
-  color: #ffffff;
-  background: #324960;
-}
-
-.fl-table tr:nth-child(even) {
-  background: #f8f8f8;
-}
-
-/* Responsive */
-
-@media (max-width: 767px) {
-  .container {
-    margin-left: 10%;
-    width: 90%;
-  }
-
-  .fl-table {
-    display: block;
-    width: 100%;
-  }
-  .table-wrapper:before {
-    content: "Scroll horizontally >";
-    display: block;
-    text-align: right;
-    font-size: 11px;
-    color: white;
-    padding: 0 0 10px;
-  }
-  .fl-table thead,
-  .fl-table tbody,
-  .fl-table thead th {
-    display: block;
-  }
-  .fl-table thead th:last-child {
-    border-bottom: none;
-  }
-  .fl-table thead {
-    float: left;
-  }
-  .fl-table tbody {
-    width: auto;
-    position: relative;
-    overflow-x: auto;
-  }
-  .fl-table td,
-  .fl-table th {
-    padding: 20px 0.625em 0.625em 0.625em;
-    height: 60px;
-    vertical-align: middle;
-    box-sizing: border-box;
-    overflow-x: hidden;
-    overflow-y: auto;
-    width: 120px;
-    font-size: 13px;
-    text-overflow: ellipsis;
-  }
-  .fl-table thead th {
-    text-align: left;
-    border-bottom: 1px solid #f7f7f9;
-  }
-  .fl-table tbody tr {
-    display: table-cell;
-  }
-  .fl-table tbody tr:nth-child(odd) {
-    background: none;
-  }
-  .fl-table tr:nth-child(even) {
-    background: transparent;
-  }
-  .fl-table tr td:nth-child(odd) {
-    background: #f8f8f8;
-    border-right: 1px solid #e6e4e4;
-  }
-  .fl-table tr td:nth-child(even) {
-    border-right: 1px solid #e6e4e4;
-  }
-  .fl-table tbody td {
-    display: block;
-    text-align: center;
-  }
-}
+.fl-table tbody tr:last-child td { border-bottom: 0; }
+.fl-table tbody tr:hover td { background: #fafcff; }
+.fl-table a { font-weight: 600; text-decoration: none; }

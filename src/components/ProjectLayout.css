@@ -1,0 +1,59 @@
+.project-hero {
+  padding: clamp(28px, 4vw, 48px) 0 clamp(28px, 4vw, 40px);
+  background:
+    radial-gradient(1000px 280px at 90% -30%, rgba(75, 156, 211, 0.2), transparent 60%),
+    linear-gradient(180deg, var(--bg-soft), #fff);
+  border-bottom: 1px solid var(--line);
+}
+.project-hero-meta { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+.project-hero h1 { font-size: clamp(1.75rem, 3.6vw, 2.5rem); line-height: 1.18; letter-spacing: -0.02em; }
+.project-authors { margin: 14px 0 0; font-size: 1rem; line-height: 1.6; color: var(--ink-2); }
+.project-authors .author-member { color: var(--ink); font-weight: 650; }
+.project-links { margin-top: 20px; }
+
+.project-body { padding-top: clamp(24px, 4vw, 40px); padding-bottom: clamp(48px, 6vw, 80px); }
+.project-body > h2:first-child { margin-top: 12px; }
+.project-body .table-scroll { margin: 16px 0 8px; }
+
+.fact-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+  margin: 24px 0;
+}
+.fact {
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--bg-soft);
+}
+.fact dt { font-size: 0.78rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.fact dd { margin: 4px 0 0; font-size: 1.2rem; font-weight: 750; line-height: 1.2; color: var(--navy); }
+
+.step-list { counter-reset: step; list-style: none; padding-left: 0 !important; }
+.step-list > li {
+  position: relative;
+  margin: 14px 0 !important;
+  padding: 14px 16px 14px 56px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: #fff;
+}
+.step-list > li::before {
+  counter-increment: step;
+  content: counter(step);
+  position: absolute;
+  left: 16px;
+  top: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--brand-tint);
+  color: var(--navy);
+  font-size: 0.85rem;
+  font-weight: 750;
+}
+.step-list strong { display: block; color: var(--navy); }

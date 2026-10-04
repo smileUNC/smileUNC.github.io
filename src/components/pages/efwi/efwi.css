@@ -1,0 +1,10 @@
+/* E^FWI benchmark tables: values grouped by parameter, two rows per dataset. */
+.efwi-table thead th[rowspan] { vertical-align: bottom; }
+.efwi-table thead th.efwi-group { text-transform: none; font-size: 0.85rem; }
+.efwi-table thead th.efwi-group .katex { font-size: 1.25em; }
+.efwi-table tbody th[rowspan] .katex { font-size: 1.12em; }
+.efwi-table th.efwi-sep,
+.efwi-table td.efwi-sep { border-left: 1px solid var(--line); }
+.efwi-table tbody th[rowspan] { text-align: center; vertical-align: middle; border-right: 1px solid var(--line); }
+.efwi-table tbody tr.efwi-l1 > td { border-bottom-style: dashed; }
+.efwi-table tbody tr:nth-last-child(2) > th[rowspan] { border-bottom: 0; }

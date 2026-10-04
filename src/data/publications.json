@@ -1,0 +1,1267 @@
+[
+  {
+    "title": "Survey of Deep Learning and Physics-Based Approaches in Computational Wave Imaging",
+    "authors": "Youzuo Lin, Shihang Feng, James Theiler, Yinpeng Chen, Umberto Villa, Jing Rao, John Greenhall, Cristian Pantea, Mark Anastasio, and Brendt Wohlberg",
+    "venue": "Proceedings of the IEEE, vol. 113, issue 12, 2026.",
+    "year": 2026,
+    "type": "Journal",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": true,
+    "url": "https://ieeexplore.ieee.org/document/11494326"
+  },
+  {
+    "title": "OpenPros: A Large-Scale Dataset for Limited View Prostate Ultrasound Computed Tomography",
+    "authors": "Hanchen Wang, Yixuan Wu, Yinan Feng, Peng Jin, Luoyuan Zhang, Shihang Feng, James Wiskin, Baris Turkbey, Peter A. Pinto, Bradford J. Wood, Songting Luo, Yinpeng Chen, Emad Boctor, and Youzuo Lin",
+    "venue": "International Conference on Learning Representations (ICLR), 2026.",
+    "year": 2026,
+    "type": "Conference",
+    "topic": "Medical Imaging & Cancer Detection",
+    "selected": true,
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/b8d1d741f137d9b6ac4f3c1683791e4a-Paper-Conference.pdf",
+    "project": "/projects/openpros",
+    "code": "https://github.com/hanchenwang/OpenPros"
+  },
+  {
+    "title": "Regularization by denoising diffusion models for solving inverse PDE problems with application to full waveform inversion",
+    "authors": "Siming Shan, Min Zhu, Youzuo Lin, and Lu Lu",
+    "venue": "Communications Physics, 2026.",
+    "year": 2026,
+    "type": "Journal",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": false,
+    "url": "https://www.nature.com/articles/s42005-026-02677-6"
+  },
+  {
+    "title": "Improving Full Waveform Inversion in Large Model Era",
+    "authors": "Yinan Feng, Peng Jin, Yuzhe Guo, Yinpeng Chen, and Youzuo Lin",
+    "venue": "arXiv preprint arXiv:2603.00377, 2026.",
+    "year": 2026,
+    "type": "Preprint",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": true,
+    "url": "https://arxiv.org/abs/2603.00377",
+    "project": "/projects/fwi-large-model"
+  },
+  {
+    "title": "3D Deep Learning Joint Inversion of Active Seismic Full Waveform and Passive Seismic Traveltime Data for Reservoir Imaging and Uncertainty Quantification",
+    "authors": "Evan Schankee Um, Hanchen Wang, David Alumbaugh, and Youzuo Lin",
+    "venue": "Geophysical Prospecting, vol. 74, no. 1: e70126, 2026.",
+    "year": 2026,
+    "type": "Journal",
+    "topic": "Clean Energy & Carbon Management",
+    "selected": false,
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/1365-2478.70126"
+  },
+  {
+    "title": "Mutually-orthogonal-plane-based Optical flow-regulated Diffusion Model for Stationary Head CT Reconstruction",
+    "authors": "Qi Wang, Weiwen Wu, Fenglin Liu, Yufang Cai, Yueh Lee, Youzuo Lin, Zirong Li, Yinan Feng, Jianping Lu, Christina R. Inscoe, and Ge Wang",
+    "venue": "IEEE Transactions on Radiation and Plasma Medical Sciences, 2026 (accepted).",
+    "year": 2026,
+    "type": "Journal",
+    "topic": "Medical Imaging & Cancer Detection",
+    "selected": false,
+    "url": "https://ieeexplore.ieee.org/document/11367096"
+  },
+  {
+    "title": "Weak Supervision Multigeophysical Inversion for CO2 Saturation Imaging",
+    "authors": "Shihang Feng, Peng Jin, Yinpeng Chen, Xitong Zhang, David Alumbaugh, Michael Commer, and Youzuo Lin",
+    "venue": "IEEE Transactions on Geoscience and Remote Sensing, vol. 63, pp. 1-17, 2025.",
+    "year": 2025,
+    "type": "Journal",
+    "topic": "Clean Energy & Carbon Management",
+    "selected": true,
+    "url": "https://ieeexplore.ieee.org/document/11173703",
+    "project": "/projects/ws-mgi"
+  },
+  {
+    "title": "DeFault: DEep-Learning-Based FAULT Delineation Using the IBDP Passive Seismic Data at the Decatur CO2 Storage Site",
+    "authors": "Hanchen Wang, Yinpeng Chen, Tariq Alkhalifah, Ting Chen, Youzuo Lin, and David Alumbaugh",
+    "venue": "Earth and Space Science, vol. 12, issue 6, e2023EA003422, 2025.",
+    "year": 2025,
+    "type": "Journal",
+    "topic": "Clean Energy & Carbon Management",
+    "selected": true,
+    "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023EA003422",
+    "project": "/projects/default",
+    "code": "https://github.com/hanchenwang/DeFault"
+  },
+  {
+    "title": "DiGiT: A Diffusion-based Modular Geophysical Toolkit for On-Device Multi-modal Data Generation",
+    "authors": "Junhuan Yang, Youzuo Lin, Weiwen Jiang, and Lei Yang",
+    "venue": "ACM Transactions on Embedded Computing Systems, 2025 (accepted).",
+    "year": 2025,
+    "type": "Journal",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": false,
+    "url": "https://dl.acm.org/doi/10.1145/3779425"
+  },
+  {
+    "title": "High-order implicit Runge-Kutta Fourier pseudospectral methods for wave equations",
+    "authors": "Ian Morgan, Youzuo Lin, and Songting Luo",
+    "venue": "Computers and Mathematics with Applications, 192, pp. 1-13, 2025.",
+    "year": 2025,
+    "type": "Journal",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": false,
+    "url": "https://www.sciencedirect.com/science/article/pii/S0898122125002032"
+  },
+  {
+    "title": "AsyncFedGAN: An Efficient and Staleness-Aware Asynchronous Federated Learning Framework for Generative Adversarial Networks",
+    "authors": "Daniel Manu, Abee Alazzwi, Jingjing Yao, Youzuo Lin, and Xiang Sun",
+    "venue": "IEEE Transactions on Parallel and Distributed Systems, vol. 36, issue 3, 2025.",
+    "year": 2025,
+    "type": "Journal",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": false,
+    "url": "https://ieeexplore.ieee.org/document/10811836"
+  },
+  {
+    "title": "Exploring Invariance in Images through One-way Wave Equations",
+    "authors": "Yinpeng Chen, Dongdong Chen, Xiyang Dai, Mengchen Liu, Yinan Feng, Youzuo Lin, Lu Yuan, and Zicheng Liu",
+    "venue": "Proceedings of the 42nd International Conference on Machine Learning (ICML), 2025.",
+    "year": 2025,
+    "type": "Conference",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": true,
+    "url": "https://icml.cc/virtual/2025/poster/45773"
+  },
+  {
+    "title": "Integrating Machine Learning with Simultaneous Quantile Regression for Uncertainty Estimation",
+    "authors": "Yanhua Liu, Xitong Zhang, Ilya Tsvankin, and Youzuo Lin",
+    "venue": "The Leading Edge, 44(2), pp. 133-141, 2025.",
+    "year": 2025,
+    "type": "Journal",
+    "topic": "Clean Energy & Carbon Management",
+    "selected": false,
+    "url": "https://pubs.geoscienceworld.org/seg/tle/article/44/2/133/651622/Integrating-machine-learning-with-simultaneous"
+  },
+  {
+    "title": "A Unified Framework for Forward and Inverse Problems in Subsurface Imaging using Latent Space Translations",
+    "authors": "Naveen Gupta, Medha Sawhney, Arka Daw, Youzuo Lin, and Anuj Karpatne",
+    "venue": "International Conference on Learning Representations (ICLR), 2025.",
+    "year": 2025,
+    "type": "Conference",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": false,
+    "url": "https://arxiv.org/abs/2410.11247"
+  },
+  {
+    "title": "A Novel Diffusion Model for Pairwise Geoscience Data Generation with Unbalanced Training Dataset",
+    "authors": "Junhuan Yang, Yuzhou Zhang, Yi Sheng, Youzuo Lin, and Lei Yang",
+    "venue": "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2025.",
+    "year": 2025,
+    "type": "Conference",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": false,
+    "url": "https://arxiv.org/abs/2501.00941"
+  },
+  {
+    "title": "NoGL-Net: a Deep Learning Approach to Grating Lobe Rejection Using Sparse RF Channel Interpolation in Synthetic Radial Aperture Focusing",
+    "authors": "Yiyang You, Ananya Tandri, Luoyuan Zhang, Youzuo Lin, Emad Boctor, and Jeeun Kang",
+    "venue": "IEEE International Ultrasonics Symposium (IUS), 2025.",
+    "year": 2025,
+    "type": "Conference",
+    "topic": "Medical Imaging & Cancer Detection",
+    "selected": false,
+    "url": "https://ieeexplore.ieee.org/abstract/document/11201399"
+  },
+  {
+    "title": "Auto-Linear Phenomenon in Subsurface Imaging",
+    "authors": "Yinan Feng, Yinpeng Chen, Peng Jin, Shihang Feng, and Youzuo Lin",
+    "venue": "Proceedings of the 41st International Conference on Machine Learning (ICML), PMLR vol. 235, pp. 13153-13174, 2024.",
+    "year": 2024,
+    "type": "Conference",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": true,
+    "url": "https://proceedings.mlr.press/v235/feng24a.html",
+    "project": "/projects/auto-linear"
+  },
+  {
+    "title": "APS-USCT: Ultrasound Computed Tomography on Sparse Data via AI-Physic Synergy",
+    "authors": "Yi Sheng, Hanchen Wang, Yipei Liu, Junhuan Yang, Weiwen Jiang, Youzuo Lin, and Lei Yang",
+    "venue": "International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2024.",
+    "year": 2024,
+    "type": "Conference",
+    "topic": "Medical Imaging & Cancer Detection",
+    "selected": false,
+    "url": "https://link.springer.com/chapter/10.1007/978-3-031-72104-5_10"
+  },
+  {
+    "title": "PreMevE-MEO: Predicting Ultra-Relativistic Electrons Using Observations from GPS Satellites",
+    "authors": "Yinan Feng, Yue Chen, and Youzuo Lin",
+    "venue": "Space Weather, 22(10), e2024SW003975, 2024.",
+    "year": 2024,
+    "type": "Journal",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": false,
+    "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024SW003975"
+  },
+  {
+    "title": "Towards a Quantum Algorithm for the Incompressible Nonlinear Navier-Stokes Equations",
+    "authors": "Muralikrishnan Gopalakrishnan Meena, Yu Zhang, Weiwen Jiang, Youzuo Lin, Stefanie Günther, and Xinfeng Gao",
+    "venue": "IEEE International Conference on Quantum Computing and Engineering (QCE), 2024.",
+    "year": 2024,
+    "type": "Conference",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": false,
+    "url": "https://ieeexplore.ieee.org/abstract/document/10821279"
+  },
+  {
+    "title": "An Empirical Study of Large-Scale Data-Driven Full Waveform Inversion",
+    "authors": "Peng Jin, Yinan Feng, Shihang Feng, Hanchen Wang, Yinpeng Chen, Benjamin Consolvo, Zicheng Liu, and Youzuo Lin",
+    "venue": "Scientific Reports, 14(1), 20034, 2024.",
+    "year": 2024,
+    "type": "Journal",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": true,
+    "url": "https://www.nature.com/articles/s41598-024-68573-7"
+  },
+  {
+    "title": "EdGeo: A Physics-Guided Generative AI Toolkit for Geophysical Monitoring on Edge Devices",
+    "authors": "Junhuan Yang, Hanchen Wang, Yi Sheng, Youzuo Lin, and Lei Yang",
+    "venue": "Proceedings of the 61st ACM/IEEE Design Automation Conference (DAC), 2024.",
+    "year": 2024,
+    "type": "Conference",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": false,
+    "url": "https://dl.acm.org/doi/abs/10.1145/3649329.3657344"
+  },
+  {
+    "title": "QuGeo: An End-to-End Quantum Learning Framework for Geoscience—A Case Study on Full-Waveform Inversion",
+    "authors": "Weiwen Jiang and Youzuo Lin",
+    "venue": "Proceedings of the 61st ACM/IEEE Design Automation Conference (DAC), 2024.",
+    "year": 2024,
+    "type": "Conference",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": true,
+    "url": "https://dl.acm.org/doi/abs/10.1145/3649329.3657363",
+    "project": "/projects/qugeo"
+  },
+  {
+    "title": "Fast and Accurate MEG Source Localization Using Deep Learning",
+    "authors": "Hanchen Wang, Shihang Feng, Qian Zhang, Young Jin Kim, Igor Savukov, Lan Yang, and Youzuo Lin",
+    "venue": "Medical Imaging 2024: Physics of Medical Imaging, vol. 12925, pp. 848-852, 2024.",
+    "year": 2024,
+    "type": "Conference",
+    "topic": "Medical Imaging & Cancer Detection",
+    "selected": false,
+    "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12925/129254E/Fast-and-accurate-MEG-source-localization-using-deep-learning/10.1117/12.3006914.full"
+  },
+  {
+    "title": "Learned Measurement Correction for Simplified Acoustic Forward Models in Ultrasound Computed Tomography",
+    "authors": "Luke Lozenski, Hanchen Wang, Brendt Wohlberg, Umberto Villa, and Youzuo Lin",
+    "venue": "Medical Imaging 2024: Ultrasonic Imaging and Tomography, vol. 12932, pp. 100-106, 2024.",
+    "year": 2024,
+    "type": "Conference",
+    "topic": "Medical Imaging & Cancer Detection",
+    "selected": false,
+    "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12932/129320I/Learned-measurement-correction-for-simplified-acoustic-forward-models-in-ultrasound/10.1117/12.3006948.full"
+  },
+  {
+    "title": "BrainPuzzle: A New Data-Driven Method for Ultrasound Brain Imaging",
+    "authors": "Shengyu Chen, Shihang Feng, Yi Luo, Xiaowei Jia, and Youzuo Lin",
+    "venue": "Medical Imaging 2024: Ultrasonic Imaging and Tomography, vol. 12932, pp. 206-211, 2024.",
+    "year": 2024,
+    "type": "Conference",
+    "topic": "Medical Imaging & Cancer Detection",
+    "selected": false,
+    "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12932/129320X/BrainPuzzle--a-new-data-driven-method-for-ultrasound-brain/10.1117/12.3006779.full"
+  },
+  {
+    "title": "The Kimberlina Synthetic Multiphysics Dataset for CO2 Monitoring Investigations",
+    "authors": "David Alumbaugh, Erika Gasperikova, Dustin Crandall, Michael Commer, Shihang Feng, William Harbert, Yaoguo Li, Youzuo Lin, and Savini Samarasinghe",
+    "venue": "Geoscience Data Journal, vol. 11, no. 2, pp. 216-234, 2024.",
+    "year": 2024,
+    "type": "Journal",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": false,
+    "url": "https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/gdj3.191"
+  },
+  {
+    "title": "HOSSNet: An Efficient Physics-Guided Neural Network for Simulating Micro-Crack Propagation",
+    "authors": "Shengyu Chen, Shihang Feng, Yao Huang, Zhou Lei, Xiaowei Jia, Youzuo Lin, and Esteban Rougier",
+    "venue": "Computational Materials Science, vol. 236, article 112846, 2024.",
+    "year": 2024,
+    "type": "Journal",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": false,
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0927025624000673"
+  },
+  {
+    "title": "Learned Full Waveform Inversion Incorporating Task Information for Ultrasound Computed Tomography",
+    "authors": "Luke Lozenski, Hanchen Wang, Fu Li, Mark Anastasio, Brendt Wohlberg, Youzuo Lin, and Umberto Villa",
+    "venue": "IEEE Transactions on Computational Imaging, vol. 10, pp. 69-82, 2024.",
+    "year": 2024,
+    "type": "Journal",
+    "topic": "Medical Imaging & Cancer Detection",
+    "selected": true,
+    "url": "https://ieeexplore.ieee.org/abstract/document/10384850",
+    "project": "/projects/tasked_usct"
+  },
+  {
+    "title": "CovTransformer: A Transformer Model for SARS-CoV-2 Lineage Frequency Forecasting",
+    "authors": "Yinan Feng, Emma E. Goldberg, Michael Kupperman, Xitong Zhang, Youzuo Lin, and Ruian Ke",
+    "venue": "Virus Evolution, vol. 10, no. 1, article veae086, 2024.",
+    "year": 2024,
+    "type": "Journal",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": false,
+    "url": "https://academic.oup.com/ve/article/10/1/veae086/7890856"
+  },
+  {
+    "title": "Physics-Guided Data-Driven Seismic Inversion: Recent Progress and Future Opportunities in Full Waveform Inversion",
+    "authors": "Youzuo Lin, James Theiler, and Brendt Wohlberg",
+    "venue": "IEEE Signal Processing Magazine, 40(1), pp. 115-133, 2023.",
+    "year": 2023,
+    "type": "Journal",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": true,
+    "url": "https://ieeexplore.ieee.org/document/10004771"
+  },
+  {
+    "title": "Fourier-DeepONet: Fourier-enhanced deep operator networks for full waveform inversion with improved accuracy, generalizability, and robustness",
+    "authors": "Min Zhu, Shihang Feng, Youzuo Lin, and Lu Lu",
+    "venue": "Computer Methods in Applied Mechanics and Engineering, vol. 416, 2023.",
+    "year": 2023,
+    "type": "Journal",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": false,
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0045782523004243"
+  },
+  {
+    "title": "Battle Against Fluctuating Quantum Noise: Compression-Aided Framework to Enable Robust Quantum Neural Network",
+    "authors": "Zhirui Hu, Youzuo Lin, Qiang Guan, and Weiwen Jiang",
+    "venue": "ACM/IEEE Design Automation Conference (DAC), 2023.",
+    "year": 2023,
+    "type": "Conference",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": false,
+    "url": "https://arxiv.org/abs/2304.04666"
+  },
+  {
+    "title": "Data driven methods for ultrasound computed tomography",
+    "authors": "Luke Lozenski, Hanchen Wang, Brendt Wohlberg, Umberto Villa, and Youzuo Lin",
+    "venue": "Proc. SPIE vol. 12463, Medical Imaging 2023: Physics of Medical Imaging, 124630Q, 2023.",
+    "year": 2023,
+    "type": "Conference",
+    "topic": "Medical Imaging & Cancer Detection",
+    "selected": false,
+    "url": "https://www.spiedigitallibrary.org/proceedings/Download?urlId=10.1117%2F12.2654442&SSO=1"
+  },
+  {
+    "title": "Seismic Waveform Inversion Capability on Resource-Constrained Edge Devices",
+    "authors": "Daniel Manu, Petro Mushidi Tshakwanda, Youzuo Lin, Weiwen Jiang, and Lei Yang",
+    "venue": "Journal of Imaging, 8(12), 312, 2023.",
+    "year": 2023,
+    "type": "Journal",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": false,
+    "url": "https://www.mdpi.com/2313-433X/8/12/312"
+  },
+  {
+    "title": "Deep Learning Multiphysics Network for Imaging CO2 Saturation and Estimating Uncertainty in Geological Carbon Storage",
+    "authors": "Evan Schankee Um, David Alumbaugh, Michael Commer, Shihang Feng, Erika Gasperikova, Yaoguo Li, Youzuo Lin, and Savini Samarasinghe",
+    "venue": "Geophysical Prospecting, 72(1), 2023.",
+    "year": 2023,
+    "type": "Journal",
+    "topic": "Clean Energy & Carbon Management",
+    "selected": false,
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/1365-2478.13257"
+  },
+  {
+    "title": "Multiparameter Benchmark Datasets for Elastic Full Waveform Inversion of Geophysical Properties",
+    "authors": "Shihang Feng, Hanchen Wang, Chengyuan Deng, Yinan Feng, Yanhua Liu, Min Zhu, Peng Jin, Yinpeng Chen, and Youzuo Lin",
+    "venue": "Advances in Neural Information Processing Systems (NeurIPS), vol. 36, 2023.",
+    "year": 2023,
+    "type": "Conference",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": false,
+    "url": "https://neurips.cc/virtual/2023/poster/73706",
+    "project": "/projects/efwi"
+  },
+  {
+    "title": "Better Together: Ensemble Learning for Earthquake Detection and Phase Picking",
+    "authors": "Congcong Yuan, Yiyu Ni, Youzuo Lin, and Marine Denolle",
+    "venue": "IEEE Transactions on Geoscience and Remote Sensing, vol. 61, 2023.",
+    "year": 2023,
+    "type": "Journal",
+    "topic": "Earthquake Characterization & Detection",
+    "selected": false,
+    "url": "https://ieeexplore.ieee.org/document/10266366"
+  },
+  {
+    "title": "Solving Seismic Wave Equations on Variable Velocity Models with Fourier Neural Operator",
+    "authors": "Bian Li, Hanchen Wang, Shihang Feng, Xiu Yang, and Youzuo Lin",
+    "venue": "IEEE Transactions on Geoscience and Remote Sensing, vol. 61, 2023.",
+    "year": 2023,
+    "type": "Journal",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": true,
+    "url": "https://ieeexplore.ieee.org/abstract/document/10319762"
+  },
+  {
+    "title": "Joint Physics-Based and Data-Driven Time-Lapse Seismic Inversion: Mitigating Data Scarcity",
+    "authors": "Yanhua Liu, Shihang Feng, Ilya Tsvankin, David Alumbaugh, and Youzuo Lin",
+    "venue": "Geophysics, 88(1), pp. K1-K12, 2023.",
+    "year": 2023,
+    "type": "Journal",
+    "topic": "Clean Energy & Carbon Management",
+    "selected": false,
+    "url": "https://pubs.geoscienceworld.org/seg/geophysics/article-abstract/88/1/K1/619511/Joint-physics-based-and-data-driven-time-lapse"
+  },
+  {
+    "title": "Spatio-Temporal Graph Convolutional Networks for Earthquake Source Characterization",
+    "authors": "Xitong Zhang, Will Reichard-Flynn, Miao Zhang, Matthew Hirn, and Youzuo Lin",
+    "venue": "Journal of Geophysical Research: Solid Earth, 127(11), 2022.",
+    "year": 2022,
+    "type": "Journal",
+    "topic": "Earthquake Characterization & Detection",
+    "selected": true,
+    "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022JB024401"
+  },
+  {
+    "title": "OpenFWI: Benchmark Seismic Datasets for Machine Learning-Based Full Waveform Inversion",
+    "authors": "Chengyuan Deng, Shihang Feng, Hanchen Wang, Xitong Zhang, Peng Jin, Yinan Feng, Qili Zeng, Yinpeng Chen, and Youzuo Lin",
+    "venue": "Conference on Neural Information Processing Systems (NeurIPS), Datasets and Benchmarks Track, 2022.",
+    "year": 2022,
+    "type": "Conference",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": true,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/27d3ef263c7cb8d542c4f9815a49b69b-Paper-Datasets_and_Benchmarks.pdf",
+    "project": "/projects/openfwi",
+    "code": "https://github.com/lanl/OpenFWI"
+  },
+  {
+    "title": "Deep Learning Categorization of Infrasound Array Processing Data",
+    "authors": "Jordan Bishop, Philip Blom, Jeremy Webster, William Reichard-Flynn, and Youzuo Lin",
+    "venue": "Journal of the Acoustical Society of America, 2022.",
+    "year": 2022,
+    "type": "Journal",
+    "topic": "Earthquake Characterization & Detection",
+    "selected": false,
+    "url": "https://asa.scitation.org/doi/abs/10.1121/10.0014903"
+  },
+  {
+    "title": "Joint physics-based and data-driven time-lapse seismic inversion: Mitigating data scarcity",
+    "authors": "Yanhua Liu, Shihang Feng, Ilya Tsvankin, David Alumbaugh, and Youzuo Lin",
+    "venue": "Second International Meeting for Applied Geoscience & Energy (IMAGE), 2022.",
+    "year": 2022,
+    "type": "Conference",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": false,
+    "url": "https://library.seg.org/doi/pdf/10.1190/image2022-3735860.1"
+  },
+  {
+    "title": "Extremely weak supervision inversion of multiphysical properties",
+    "authors": "Shihang Feng, Peng Jin, Xitong Zhang, Yinpeng Chen, David Alumbaugh, Michael Commer, and Youzuo Lin",
+    "venue": "Second International Meeting for Applied Geoscience & Energy (IMAGE), 2022.",
+    "year": 2022,
+    "type": "Conference",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": false,
+    "url": "https://library.seg.org/doi/pdf/10.1190/image2022-3746487.1"
+  },
+  {
+    "title": "Quantum Neural Network Compression",
+    "authors": "Zhirui Hu, Peiyan Dong, Zhepeng Wang, Youzuo Lin, Yanzhi Wang, and Weiwen Jiang",
+    "venue": "International Conference on Computer-Aided Design (ICCAD), 2022.",
+    "year": 2022,
+    "type": "Conference",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": false,
+    "url": "https://dl.acm.org/doi/pdf/10.1145/3508352.3549382"
+  },
+  {
+    "title": "An Intriguing Property of Geophysics Inversion",
+    "authors": "Yinan Feng, Yinpeng Chen, Shihang Feng, Peng Jin, Zicheng Liu, and Youzuo Lin",
+    "venue": "International Conference on Machine Learning (ICML), 2022.",
+    "year": 2022,
+    "type": "Conference",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": true,
+    "url": "https://proceedings.mlr.press/v162/feng22a.html",
+    "project": "/projects/invlint"
+  },
+  {
+    "title": "Real-Time Deep-Learning Seismic-Full-Waveform Inversion for Estimating CO2 Saturation and Uncertainty for Monitoring Geological Carbon Storage",
+    "authors": "Evan Schankee Um, David Alumbaugh, Youzuo Lin, and Shihang Feng",
+    "venue": "Geophysical Prospecting, 2022.",
+    "year": 2022,
+    "type": "Journal",
+    "topic": "Clean Energy & Carbon Management",
+    "selected": false,
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/1365-2478.13197"
+  },
+  {
+    "title": "Making Invisible Visible: Data-Driven Seismic Inversion with Spatio-temporally Constrained Data Augmentation",
+    "authors": "Yuxin Yang, Xitong Zhang, Qiang Guan, and Youzuo Lin",
+    "venue": "IEEE Transactions on Geoscience and Remote Sensing, vol. 60, pp. 1-16, 2022.",
+    "year": 2022,
+    "type": "Journal",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": true,
+    "url": "https://ieeexplore.ieee.org/document/9684864"
+  },
+  {
+    "title": "Unsupervised Learning of Full-Waveform Inversion: Connecting CNN and Partial Differential Equation in a Loop",
+    "authors": "Peng Jin, Xitong Zhang, Yinpeng Chen, Sharon Xiaolei Huang, Zicheng Liu, and Youzuo Lin",
+    "venue": "International Conference on Learning Representations (ICLR), 2022.",
+    "year": 2022,
+    "type": "Conference",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": true,
+    "url": "https://arxiv.org/abs/2110.07584",
+    "project": "/projects/upfwi"
+  },
+  {
+    "title": "Double-Difference Seismic-Waveform Inversion for Quantifying Subsurface Geophysical Properties Changes",
+    "authors": "Youzuo Lin, Zhigang Zhang, and Lianjie Huang",
+    "venue": "Book chapter in Geophysical Monitoring for Geologic Carbon Storage, 2022.",
+    "year": 2022,
+    "type": "Book Chapter",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": false,
+    "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/9781119156871.ch11"
+  },
+  {
+    "title": "InversionNet3D: Efficient and Scalable Learning for 3D Full Waveform Inversion",
+    "authors": "Qili Zeng, Shihang Feng, Brendt Wohlberg, and Youzuo Lin",
+    "venue": "IEEE Transactions on Geoscience and Remote Sensing, vol. 60, pp. 1-16, 2021.",
+    "year": 2021,
+    "type": "Journal",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": true,
+    "url": "https://ieeexplore.ieee.org/document/9648315"
+  },
+  {
+    "title": "Consensus equilibrium for subsurface delineation",
+    "authors": "Hyung Jun Yang, Youzuo Lin, Brendt Wohlberg, and Daniel Tartakovsky",
+    "venue": "Water Resources Research, 57(10), e2021WR030151, 2021.",
+    "year": 2021,
+    "type": "Journal",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": false,
+    "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021WR030151"
+  },
+  {
+    "title": "Multiscale Data-driven Seismic Full-waveform Inversion with Field Data Study",
+    "authors": "Shihang Feng, Youzuo Lin, and Brendt Wohlberg",
+    "venue": "IEEE Transactions on Geoscience and Remote Sensing, vol. 60, pp. 1-14, 2021.",
+    "year": 2021,
+    "type": "Journal",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": true,
+    "url": "https://ieeexplore.ieee.org/document/9556631"
+  },
+  {
+    "title": "PreMevE Update: Forecasting Ultra-relativistic Electrons inside Earth's Outer Radiation Belt",
+    "authors": "Saurabh Sinha, Yue Chen, Youzuo Lin, and Rafael Pires de Lima",
+    "venue": "Space Weather, 19(9), e2021SW002773, 2021.",
+    "year": 2021,
+    "type": "Journal",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": false,
+    "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021SW002773"
+  },
+  {
+    "title": "SeismoGen: Seismic Waveform Synthesis Using GAN with Application to Seismic Data Augmentation",
+    "authors": "Tiantong Wang, Daniel Trugman, and Youzuo Lin",
+    "venue": "Journal of Geophysical Research: Solid Earth, 126(4), e2020JB020077, 2021.",
+    "year": 2021,
+    "type": "Journal",
+    "topic": "Earthquake Characterization & Detection",
+    "selected": true,
+    "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JB020077"
+  },
+  {
+    "title": "Connect the Dots: In Situ 4D Seismic Monitoring of CO2 Storage with Spatio-temporal CNNs",
+    "authors": "Shihang Feng, Xitong Zhang, Brendt Wohlberg, Neill Symons, and Youzuo Lin",
+    "venue": "IEEE Transactions on Geoscience and Remote Sensing, vol. 60, pp. 1-16, 2021.",
+    "year": 2021,
+    "type": "Journal",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": true,
+    "url": "https://ieeexplore.ieee.org/document/9565220"
+  },
+  {
+    "title": "Estimating Watershed Subsurface Permeability From Stream Discharge Data using Deep Neural Networks",
+    "authors": "Erol Cromwell, Pin Shuai, Peishi Jiang, Ethan T. Coon, Scott L. Painter, David Moulton, Youzuo Lin, and Xingyuan Chen",
+    "venue": "Frontiers in Earth Science, 2021.",
+    "year": 2021,
+    "type": "Journal",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": false,
+    "url": "https://www.frontiersin.org/articles/10.3389/feart.2021.613011/full"
+  },
+  {
+    "title": "Machine Learning Provides Effective Leak Detection in Carbon Sequestration Projects",
+    "authors": "Saurabh Sinha, Rafael Pires de Lima, Youzuo Lin, Alexander Y. Sun, Neill Symons, Rajesh Pawar, and George Guthrie",
+    "venue": "Journal of Petroleum Technology, 73(07), pp. 67-68, 2021.",
+    "year": 2021,
+    "type": "Journal",
+    "topic": "Clean Energy & Carbon Management",
+    "selected": false,
+    "url": "https://jpt.spe.org/machine-learning-provides-effective-leak-detection-in-carbon-sequestration-projects"
+  },
+  {
+    "title": "Enhancing data-driven seismic inversion using physics-guided spatiotemporal data augmentation",
+    "authors": "Yuxin Yang, Xitong Zhang, Qiang Guan, and Youzuo Lin",
+    "venue": "Proceedings of the Society of Exploration Geophysicists (SEG), pp. 1395-1399, 2021.",
+    "year": 2021,
+    "type": "Conference",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": false,
+    "url": "https://library.seg.org/doi/10.1190/segam2021-3583172.1"
+  },
+  {
+    "title": "Monitoring and forecasting CO2 storage in the Sleipner area with spatio-temporal CNNs",
+    "authors": "Shihang Feng, Xitong Zhang, Brendt Wohlberg, Neill Symons, and Youzuo Lin",
+    "venue": "Proceedings of the Society of Exploration Geophysicists (SEG), pp. 1686-1690, 2021.",
+    "year": 2021,
+    "type": "Conference",
+    "topic": "Clean Energy & Carbon Management",
+    "selected": false,
+    "url": "https://library.seg.org/doi/10.1190/segam2021-3583695.1"
+  },
+  {
+    "title": "Physics-Consistent Data-driven Waveform Inversion with Adaptive Data Augmentation",
+    "authors": "Renán Rojas-Gómez, Jihyun Yang, Youzuo Lin, James Theiler, and Brendt Wohlberg",
+    "venue": "IEEE Geoscience and Remote Sensing Letters, vol. 19, pp. 1-5, 2022.",
+    "year": 2020,
+    "type": "Journal",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": false,
+    "url": "https://ieeexplore.ieee.org/document/9199263"
+  },
+  {
+    "title": "Normal or Abnormal? Machine Learning for the Leakage Detection in Carbon Sequestration Projects Using Pressure Field Data",
+    "authors": "Saurabh Sinha, Rafael Pires de Lima, Youzuo Lin, Alexander Y. Sun, Neill Symons, Rajesh Pawar, and George Guthrie",
+    "venue": "International Journal of Greenhouse Gas Control, vol. 103, 2020.",
+    "year": 2020,
+    "type": "Journal",
+    "topic": "Clean Energy & Carbon Management",
+    "selected": false,
+    "url": "https://www.sciencedirect.com/science/article/pii/S1750583620306149"
+  },
+  {
+    "title": "Data-driven Seismic Waveform Inversion: A Study on the Robustness and Generalization",
+    "authors": "Zhongping Zhang and Youzuo Lin",
+    "venue": "IEEE Transactions on Geoscience and Remote Sensing, 58(10), pp. 6900-6913, 2020.",
+    "year": 2020,
+    "type": "Journal",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": true,
+    "url": "https://ieeexplore.ieee.org/document/9044635"
+  },
+  {
+    "title": "PreMevE 2.0: Forecast Megaelectron-Volt Electrons Inside Earth's Outer Radiation Belt Based on Supervised Machine Learning Algorithms",
+    "authors": "Rafael Pires de Lima, Yue Chen, and Youzuo Lin",
+    "venue": "Space Weather, 18(2), 2020.",
+    "year": 2020,
+    "type": "Journal",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": false,
+    "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019SW002399"
+  },
+  {
+    "title": "Estimation of subsurface porosities and thermal conductivity of polygonal tundra by coupled inversion of electrical resistivity, temperature, and moisture content data",
+    "authors": "Elchin E. Jafarov, Dylan Harp, Ethan Coon, Baptiste Dafflon, Anh Phuong Tran, Adam Atchley, Youzuo Lin, and Cathy Wilson",
+    "venue": "The Cryosphere, 14, pp. 77-91, 2020.",
+    "year": 2020,
+    "type": "Journal",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": false,
+    "url": "https://tc.copernicus.org/articles/14/77/2020/"
+  },
+  {
+    "title": "Automated Leakage Identification in Carbon Sequestration Projects",
+    "authors": "Saurabh Sinha, Rafael Pires de Lima, Youzuo Lin, Alexander Y. Sun, Neill Symons, Rajesh Pawar, and George Guthrie",
+    "venue": "Proceedings of the SPE Annual Technical Conference and Exhibition, 2020.",
+    "year": 2020,
+    "type": "Conference",
+    "topic": "Clean Energy & Carbon Management",
+    "selected": false,
+    "url": "https://www.onepetro.org/conference-paper/SPE-201552-MS"
+  },
+  {
+    "title": "How Good Is Your Scientific Data Generative Model?",
+    "authors": "Yuxin Yang, Ben Gremillion, Xitong Zhang, Youzuo Lin, Brendt Wohlberg, and Qiang Guan",
+    "venue": "ACM/IEEE Supercomputing Conference (SC20), Workshop on Artificial Intelligence and Machine Learning for Scientific Applications, 2020.",
+    "year": 2020,
+    "type": "Conference",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": false,
+    "url": "https://ieeexplore.ieee.org/abstract/document/9409313"
+  },
+  {
+    "title": "Full-waveform inversion with applications to subsurface characterization and breast cancer detection",
+    "authors": "Youzuo Lin, Yue Wu, and Zhongping Zhang",
+    "venue": "Proceedings of the Society of Exploration Geophysicists (SEG), pp. 3497-3501, 2020.",
+    "year": 2020,
+    "type": "Conference",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": false,
+    "url": "https://library.seg.org/doi/10.1190/segam2020-3424462.1"
+  },
+  {
+    "title": "Physically realistic training data construction for data-driven full-waveform inversion and traveltime tomography",
+    "authors": "Shihang Feng, Youzuo Lin, and Brendt Wohlberg",
+    "venue": "Proceedings of the Society of Exploration Geophysicists (SEG), pp. 3472-3476, 2020.",
+    "year": 2020,
+    "type": "Conference",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": false,
+    "url": "https://library.seg.org/doi/10.1190/segam2020-3427349.1"
+  },
+  {
+    "title": "CycleFCN: A physics-informed data-driven seismic waveform inversion method",
+    "authors": "Peng Jin, Shihang Feng, Youzuo Lin, Brendt Wohlberg, David Moulton, Erol Cromwell, and Xingyuan Chen",
+    "venue": "Proceedings of the Society of Exploration Geophysicists (SEG), pp. 3867-3871, 2020.",
+    "year": 2020,
+    "type": "Conference",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": false,
+    "url": "https://library.seg.org/doi/10.1190/segam2020-w13-05.1"
+  },
+  {
+    "title": "Physics-Consistent Data-driven Seismic Inversion with Adaptive Data Augmentation",
+    "authors": "Renán Rojas-Gómez, Jihyun Yang, Youzuo Lin, James Theiler, and Brendt Wohlberg",
+    "venue": "NeurIPS Workshop on Machine Learning and the Physical Sciences, 2020.",
+    "year": 2020,
+    "type": "Conference",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": false,
+    "url": "https://ml4physicalsciences.github.io/2020/files/NeurIPS_ML4PS_2020_22.pdf"
+  },
+  {
+    "title": "InversionNet: An Efficient and Accurate Data-driven Full Waveform Inversion",
+    "authors": "Yue Wu and Youzuo Lin",
+    "venue": "IEEE Transactions on Computational Imaging, 6(1), pp. 419-433, 2019.",
+    "year": 2019,
+    "type": "Journal",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": true,
+    "url": "https://ieeexplore.ieee.org/abstract/document/8918045",
+    "project": "/projects/inversion_net"
+  },
+  {
+    "title": "A Data-Driven CO2 Leakage Detection Using Seismic Data and Spatial-Temporal Densely Connected Convolutional Neural Networks",
+    "authors": "Zheng Zhou, Youzuo Lin, Zhongping Zhang, Yue Wu, Zan Wang, Robert Dilmore, and George Guthrie",
+    "venue": "International Journal of Greenhouse Gas Control, vol. 90, 2019.",
+    "year": 2019,
+    "type": "Journal",
+    "topic": "Clean Energy & Carbon Management",
+    "selected": false,
+    "url": "https://www.sciencedirect.com/science/article/pii/S1750583619301239"
+  },
+  {
+    "title": "Earthquake Detection in 1-D Time Series Data with Feature Selection and Dictionary Learning",
+    "authors": "Zheng Zhou, Youzuo Lin, Zhongping Zhang, Yue Wu, and Paul Johnson",
+    "venue": "Seismological Research Letters, 90(2A), pp. 563-572, 2019.",
+    "year": 2019,
+    "type": "Journal",
+    "topic": "Earthquake Characterization & Detection",
+    "selected": false,
+    "url": "https://pubs.geoscienceworld.org/ssa/srl/article-abstract/90/2A/563/568576/Earthquake-Detection-in-1D-Time-Series-Data-with"
+  },
+  {
+    "title": "DeepDetect: A Cascaded Region-based Densely Connected Network for Seismic Event Detection",
+    "authors": "Yue Wu, Youzuo Lin, Zheng Zhou, David Chas Bolton, Ji Liu, and Paul Johnson",
+    "venue": "IEEE Transactions on Geoscience and Remote Sensing, 57(1), pp. 62-75, 2019.",
+    "year": 2019,
+    "type": "Journal",
+    "topic": "Earthquake Characterization & Detection",
+    "selected": true,
+    "url": "https://ieeexplore.ieee.org/document/8424545"
+  },
+  {
+    "title": "Adaptive Filtering for Event Recognition from Noisy Signal: An Application to Earthquake Detection",
+    "authors": "Zhongping Zhang, Zheng Zhou, Tianlang Chen, and Youzuo Lin",
+    "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), pp. 3327-3331, 2019.",
+    "year": 2019,
+    "type": "Conference",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": false,
+    "url": "https://ieeexplore.ieee.org/document/8683688"
+  },
+  {
+    "title": "VelocityGAN: Data-Driven Full-Waveform Inversion Using Conditional Adversarial Networks",
+    "authors": "Zhongping Zhang, Yue Wu, Zheng Zhou, and Youzuo Lin",
+    "venue": "IEEE Winter Conference on Applications of Computer Vision (WACV), 2019.",
+    "year": 2019,
+    "type": "Conference",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": false,
+    "url": "https://ieeexplore.ieee.org/document/8658391",
+    "project": "/projects/velocity_gan"
+  },
+  {
+    "title": "Learning or memorizing: A study of generalization issues on data-driven seismic full-waveform inversion",
+    "authors": "Youzuo Lin and Zhongping Zhang",
+    "venue": "Proceedings of the Society of Exploration Geophysicists (SEG), pp. 2644-2648, 2019.",
+    "year": 2019,
+    "type": "Conference",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": false,
+    "url": "https://library.seg.org/doi/abs/10.1190/segam2019-3216702.1"
+  },
+  {
+    "title": "Efficient seismic denoising techniques using robust principal component analysis",
+    "authors": "Ningyu Sha, Ming Yan, and Youzuo Lin",
+    "venue": "Proceedings of the Society of Exploration Geophysicists (SEG), pp. 2543-2547, 2019.",
+    "year": 2019,
+    "type": "Conference",
+    "topic": "Clean Energy & Carbon Management",
+    "selected": false,
+    "url": "https://library.seg.org/doi/10.1190/segam2019-3216379.1"
+  },
+  {
+    "title": "Transforming seismic data into pseudo-RGB images to predict CO2 leakage using pre-learned convolutional neural networks weights",
+    "authors": "Rafael Pires de Lima, Youzuo Lin, and Kurt J. Marfurt",
+    "venue": "Proceedings of the Society of Exploration Geophysicists (SEG), pp. 2368-2372, 2019.",
+    "year": 2019,
+    "type": "Conference",
+    "topic": "Clean Energy & Carbon Management",
+    "selected": false,
+    "url": "https://library.seg.org/doi/10.1190/segam2019-3215401.1"
+  },
+  {
+    "title": "Geophysical data integration and machine learning for multi-target leakage estimation in geologic carbon sequestration",
+    "authors": "Rafael Pires de Lima and Youzuo Lin",
+    "venue": "Proceedings of the Society of Exploration Geophysicists (SEG), pp. 2333-2337, 2019.",
+    "year": 2019,
+    "type": "Conference",
+    "topic": "Clean Energy & Carbon Management",
+    "selected": false,
+    "url": "https://library.seg.org/doi/abs/10.1190/segam2019-3215405.1"
+  },
+  {
+    "title": "EarthquakeGen: Earthquake generator using generative adversarial networks",
+    "authors": "Tiantong Wang, Zhongping Zhang, and Youzuo Lin",
+    "venue": "Proceedings of the Society of Exploration Geophysicists (SEG), pp. 2674-2678, 2019.",
+    "year": 2019,
+    "type": "Conference",
+    "topic": "Clean Energy & Carbon Management",
+    "selected": false,
+    "url": "https://library.seg.org/doi/10.1190/segam2019-3216687.1"
+  },
+  {
+    "title": "Efficient Data-Driven Geologic Feature Characterization from Pre-stack Seismic Measurements using Randomized Machine-Learning Algorithm",
+    "authors": "Youzuo Lin, Shusen Wang, Jayaraman Thiagarajan, George Guthrie, and David Coblentz",
+    "venue": "Geophysical Journal International, 215(3), pp. 1900-1913, 2018.",
+    "year": 2018,
+    "type": "Journal",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": false,
+    "url": "https://academic.oup.com/gji/article/215/3/1900/5101444"
+  },
+  {
+    "title": "Geologic CO2 Sequestration Monitoring Design: A Machine Learning and Uncertainty Quantification Based Approach",
+    "authors": "Bailian Chen, Dylan Harp, Youzuo Lin, Elizabeth Keating, and Rajesh Pawar",
+    "venue": "Applied Energy, 225(1), pp. 332-345, 2018.",
+    "year": 2018,
+    "type": "Journal",
+    "topic": "Clean Energy & Carbon Management",
+    "selected": true,
+    "url": "https://www.sciencedirect.com/science/article/pii/S0306261918307372"
+  },
+  {
+    "title": "InversionNet: Accurate and efficient seismic-waveform inversion with convolutional neural networks",
+    "authors": "Yue Wu, Youzuo Lin, and Zheng Zhou",
+    "venue": "Proceedings of the Society of Exploration Geophysicists (SEG), pp. 2096-2100, 2018.",
+    "year": 2018,
+    "type": "Conference",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": false,
+    "url": "https://library.seg.org/doi/abs/10.1190/segam2018-2998603.1"
+  },
+  {
+    "title": "Spatial-temporal densely connected convolutional networks: An application to CO2 leakage detection",
+    "authors": "Zheng Zhou, Youzuo Lin, Yue Wu, Zan Wang, Robert Dilmore, and George Guthrie",
+    "venue": "Proceedings of the Society of Exploration Geophysicists (SEG), pp. 2136-2140, 2018.",
+    "year": 2018,
+    "type": "Conference",
+    "topic": "Clean Energy & Carbon Management",
+    "selected": false,
+    "url": "https://library.seg.org/doi/abs/10.1190/segam2018-2998454.1"
+  },
+  {
+    "title": "Large-Scale Inverse Model Analyses Employing Fast Randomized Data Reduction",
+    "authors": "Youzuo Lin, Ellen B. Le, Daniel O'Malley, Velimir V. Vesselinov, and Tan Bui-Thanh",
+    "venue": "Water Resources Research, 53(8), pp. 6784-6801, 2017.",
+    "year": 2017,
+    "type": "Journal",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": false,
+    "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2016WR020299"
+  },
+  {
+    "title": "Building Subsurface Velocity Models with Sharp Interfaces Using Interface-Guided Seismic Full-Waveform Inversion",
+    "authors": "Youzuo Lin and Lianjie Huang",
+    "venue": "Pure and Applied Geophysics, 174(11), pp. 4035-4055, 2017.",
+    "year": 2017,
+    "type": "Journal",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": false,
+    "url": "https://link.springer.com/article/10.1007/s00024-017-1628-5"
+  },
+  {
+    "title": "ADMM Penalty Parameter Selection with Krylov Subspace Recycling Technique for Sparse Coding",
+    "authors": "Youzuo Lin, Brendt Wohlberg, and Velimir Vesselinov",
+    "venue": "IEEE International Conference on Image Processing (ICIP), 2017.",
+    "year": 2017,
+    "type": "Conference",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": false,
+    "url": "https://ieeexplore.ieee.org/document/8296621"
+  },
+  {
+    "title": "Multiple Queries of Information Retrieval using Krylov Subspace Method",
+    "authors": "Youzuo Lin",
+    "venue": "IEEE International Conference on Data Mining Workshops (ICDMW), pp. 531-538, 2017.",
+    "year": 2017,
+    "type": "Conference",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": false,
+    "url": "https://ieeexplore.ieee.org/document/8215707"
+  },
+  {
+    "title": "Towards Real-Time Geologic Feature Detection from Seismic Measurements using a Randomized Machine-Learning Algorithm",
+    "authors": "Youzuo Lin, Shusen Wang, Jayaraman Thiagarajan, George Guthrie, and David Coblentz",
+    "venue": "Proceedings of the Society of Exploration Geophysicists (SEG), pp. 2143-2148, 2017.",
+    "year": 2017,
+    "type": "Conference",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": false,
+    "url": "https://library.seg.org/doi/abs/10.1190/segam2017-17775517.1"
+  },
+  {
+    "title": "A computationally efficient parallel Levenberg-Marquardt algorithm for highly parameterized inverse model analyses",
+    "authors": "Youzuo Lin, Daniel O'Malley, and Velimir V. Vesselinov",
+    "venue": "Water Resources Research, 52(9), pp. 6948-6977, 2016.",
+    "year": 2016,
+    "type": "Journal",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": false,
+    "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2016WR019028"
+  },
+  {
+    "title": "Quantifying Subsurface Geophysical Properties Changes Using Double-Difference Seismic-Waveform Inversion with a Modified Total-Variation Regularization Scheme",
+    "authors": "Youzuo Lin and Lianjie Huang",
+    "venue": "Geophysical Journal International, 203(3), pp. 2125-2149, 2016.",
+    "year": 2016,
+    "type": "Journal",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": false,
+    "url": "https://academic.oup.com/gji/article/203/3/2125/2594859"
+  },
+  {
+    "title": "SEM resolution improvement using semi-blind restoration with hybrid L1-L2 regularization",
+    "authors": "Youzuo Lin, Yudhishthir Kandel, Matthew Zotta, and Eric Lifshin",
+    "venue": "IEEE Southwest Symposium on Image Analysis and Interpretation, pp. 33-36, 2016.",
+    "year": 2016,
+    "type": "Conference",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": false,
+    "url": "https://ieeexplore.ieee.org/document/7459168"
+  },
+  {
+    "title": "A Framework for Robust Analysis and Visualization of Geothermal Prospectivity",
+    "authors": "Dylan R. Harp, Youzuo Lin, William Glassley, David E. Dempsey, Satish Karra, Mark Person, and Richard Middleton",
+    "venue": "Proceedings of the 41st Stanford Geothermal Workshop, vol. 41, 2016.",
+    "year": 2016,
+    "type": "Conference",
+    "topic": "Renewable Energy & Geothermal Exploration",
+    "selected": false,
+    "url": "https://pangea.stanford.edu/ERE/db/IGAstandard/record_detail.php?id=26433"
+  },
+  {
+    "title": "Three-dimensional Elastic-waveform Inversion with Compressive Sensing for Imaging Geothermal Fields Using Sparse VSP Data",
+    "authors": "Ting Chen, Kai Gao, Youzuo Lin, Lianjie Huang, John Queen, Joseph Moore, and Ernest Majer",
+    "venue": "Proceedings of the 41st Stanford Geothermal Workshop, vol. 41, 2016.",
+    "year": 2016,
+    "type": "Conference",
+    "topic": "Renewable Energy & Geothermal Exploration",
+    "selected": false,
+    "url": "https://pangea.stanford.edu/ERE/db/IGAstandard/record_detail.php?id=26394"
+  },
+  {
+    "title": "Least-Squares Reverse-Time Migration with Compressive Sensing for Sparse Seismic Data",
+    "authors": "Youzuo Lin and Lianjie Huang",
+    "venue": "Proceedings of the 41st Stanford Geothermal Workshop, vol. 41, 2016.",
+    "year": 2016,
+    "type": "Conference",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": false,
+    "url": "https://pangea.stanford.edu/ERE/db/IGAstandard/record_detail.php?id=26467"
+  },
+  {
+    "title": "Double-difference traveltime tomography with edge-preserving regularization and a priori interfaces",
+    "authors": "Youzuo Lin, Ellen M. Syracuse, Monica Maceira, Haijiang Zhang, and Carene Larmat",
+    "venue": "Geophysical Journal International, 201(2), pp. 574-594, 2015.",
+    "year": 2015,
+    "type": "Journal",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": false,
+    "url": "https://academic.oup.com/gji/article/201/2/574/574878"
+  },
+  {
+    "title": "Acoustic- and Elastic-Waveform Inversion Using a Modified Total-Variation Regularization Scheme",
+    "authors": "Youzuo Lin and Lianjie Huang",
+    "venue": "Geophysical Journal International, 200(1), pp. 489-502, 2015.",
+    "year": 2015,
+    "type": "Journal",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": true,
+    "url": "https://academic.oup.com/gji/article/200/1/489/749779"
+  },
+  {
+    "title": "Ultrasound bent-ray tomography with a modified total-variation regularization scheme",
+    "authors": "Miranda Intrator, Youzuo Lin, Ting Chen, Junseob Shin, and Lianjie Huang",
+    "venue": "Proc. SPIE 9419, Medical Imaging 2015: Ultrasonic Imaging, Tomography, and Therapy, 2015.",
+    "year": 2015,
+    "type": "Conference",
+    "topic": "Medical Imaging & Cancer Detection",
+    "selected": false,
+    "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/9419/941917/Ultrasound-bent-ray-tomography-with-a-modified-total-variation-regularization/10.1117/12.2082192.full"
+  },
+  {
+    "title": "Breast ultrasound tomography with two parallel transducer arrays: preliminary clinical results",
+    "authors": "Lianjie Huang, Junseob Shin, Ting Chen, Youzuo Lin, Miranda Intrator, Kenneth Hanson, Katherine Epstein, Daniel Sandoval, and Michael Williamson",
+    "venue": "Proc. SPIE 9419, Medical Imaging 2015: Ultrasonic Imaging, Tomography, and Therapy, 2015.",
+    "year": 2015,
+    "type": "Conference",
+    "topic": "Medical Imaging & Cancer Detection",
+    "selected": true,
+    "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/9419/941916/Breast-ultrasound-tomography-with-two-parallel-transducer-arrays--preliminary/10.1117/12.2082404.full"
+  },
+  {
+    "title": "Least-squares reverse-time migration with modified total-variation regularization",
+    "authors": "Youzuo Lin and Lianjie Huang",
+    "venue": "SEG Technical Program Expanded Abstracts, pp. 4264-4269, 2015.",
+    "year": 2015,
+    "type": "Conference",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": false,
+    "url": "https://library.seg.org/doi/abs/10.1190/segam2015-5914034.1"
+  },
+  {
+    "title": "Anisotropic elastic waveform inversion with modified total-variation regularization",
+    "authors": "Kai Gao, Youzuo Lin, Lianjie Huang, John Queen, Joseph Moore, and Ernest Majer",
+    "venue": "SEG Technical Program Expanded Abstracts, pp. 5158-5163, 2015.",
+    "year": 2015,
+    "type": "Conference",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": false,
+    "url": "https://library.seg.org/doi/abs/10.1190/segam2015-5874837.1"
+  },
+  {
+    "title": "Elastic-Waveform Inversion with Compressive Sensing for Sparse Seismic Data",
+    "authors": "Youzuo Lin and Lianjie Huang",
+    "venue": "Proceedings of the 39th Stanford Geothermal Workshop, vol. 40, pp. 1031-1036, 2015.",
+    "year": 2015,
+    "type": "Conference",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": false,
+    "url": "https://pangea.stanford.edu/ERE/db/IGAstandard/record_detail.php?id=20544"
+  },
+  {
+    "title": "Ultrasound waveform tomography with a spatially variant regularization scheme",
+    "authors": "Youzuo Lin and Lianjie Huang",
+    "venue": "Proc. SPIE 9040, Medical Imaging 2014: Ultrasonic Imaging, Tomography, and Therapy, 2014.",
+    "year": 2014,
+    "type": "Conference",
+    "topic": "Medical Imaging & Cancer Detection",
+    "selected": false,
+    "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/9040/90401M/Ultrasound-waveform-tomography-with-a-spatially-variant-regularization-scheme/10.1117/12.2043110.full"
+  },
+  {
+    "title": "Breast ultrasound waveform tomography: using both transmission and reflection data, and numerical virtual point sources",
+    "authors": "Lianjie Huang, Youzuo Lin, Zhigang Zhang, Yassin Labyed, Sirui Tan, Nghia Nguyen, Kenneth Hanson, Daniel Sandoval, and Michael Williamson",
+    "venue": "Proc. SPIE 9040, Medical Imaging 2014: Ultrasonic Imaging, Tomography, and Therapy, pp. 90400T1-90400T12, 2014.",
+    "year": 2014,
+    "type": "Conference",
+    "topic": "Medical Imaging & Cancer Detection",
+    "selected": true,
+    "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/9040/90400T/Breast-ultrasound-waveform-tomography--using-both-transmission-and-reflection/10.1117/12.2043136.full"
+  },
+  {
+    "title": "Quantitative monitoring for geologic carbon storage using edge-preserving full-waveform inversion of time-lapse seismic data",
+    "authors": "Youzuo Lin and Lianjie Huang",
+    "venue": "Proceedings of the 13th Annual Conference on Carbon Capture, Utilization & Storage, 2014.",
+    "year": 2014,
+    "type": "Conference",
+    "topic": "Clean Energy & Carbon Management",
+    "selected": false
+  },
+  {
+    "title": "Building subsurface velocity models with sharp interfaces and steeply-dipping fault zones using elastic-waveform inversion with edge-guided regularization",
+    "authors": "Youzuo Lin and Lianjie Huang",
+    "venue": "Proceedings of the 39th Stanford Geothermal Workshop, vol. 39, pp. 871-878, 2014.",
+    "year": 2014,
+    "type": "Conference",
+    "topic": "Renewable Energy & Geothermal Exploration",
+    "selected": false,
+    "url": "https://pangea.stanford.edu/ERE/db/IGAstandard/record_detail.php?id=19850"
+  },
+  {
+    "title": "Ultrasound waveform tomography with a modified total-variation regularization scheme",
+    "authors": "Youzuo Lin and Lianjie Huang",
+    "venue": "Proc. SPIE 8675, Medical Imaging 2013: Ultrasonic Imaging, Tomography, and Therapy, pp. 86751F1-86751F9, 2013.",
+    "year": 2013,
+    "type": "Conference",
+    "topic": "Medical Imaging & Cancer Detection",
+    "selected": true,
+    "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/8675/86751F/Ultrasound-waveform-tomography-with-a-modified-total-variation-regularization-scheme/10.1117/12.2007650.full"
+  },
+  {
+    "title": "Accurate velocity estimation for steep fault zones using full-waveform inversion with edge-guided regularization",
+    "authors": "Youzuo Lin and Lianjie Huang",
+    "venue": "Proceedings of the 35th Geothermal Resources Council Annual Meeting, vol. 37, pp. 1031-1036, 2013.",
+    "year": 2013,
+    "type": "Conference",
+    "topic": "Renewable Energy & Geothermal Exploration",
+    "selected": false,
+    "url": "http://pubs.geothermal-library.org/lib/grc/1030697.pdf"
+  },
+  {
+    "title": "Ultrasound waveform tomography with the total-variation regularization for detection of small breast tumors",
+    "authors": "Youzuo Lin, Lianjie Huang, and Zhigang Zhang",
+    "venue": "Proc. SPIE 8320, Medical Imaging 2012: Ultrasonic Imaging, Tomography, and Therapy, pp. 8320021-8320029, 2012.",
+    "year": 2012,
+    "type": "Conference",
+    "topic": "Medical Imaging & Cancer Detection",
+    "selected": false,
+    "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/8320/832002/Ultrasound-waveform-tomography-with-the-total-variation-regularization-for-detection/10.1117/12.910765.full"
+  },
+  {
+    "title": "Efficient implementation of ultrasound waveform tomography using source encoding",
+    "authors": "Zhigang Zhang, Lianjie Huang, and Youzuo Lin",
+    "venue": "Proc. SPIE 8320, Medical Imaging 2012: Ultrasonic Imaging, Tomography, and Therapy, pp. 8320031-83200310, 2012.",
+    "year": 2012,
+    "type": "Conference",
+    "topic": "Medical Imaging & Cancer Detection",
+    "selected": false,
+    "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/8320/832003/Efficient-implementation-of-ultrasound-waveform-tomography-using-source-encoding/10.1117/12.910969.full"
+  },
+  {
+    "title": "Detection of breast microcalcifications using synthetic-aperture ultrasound",
+    "authors": "Lianjie Huang, Yassin Labyed, Youzuo Lin, Zhigang Zhang, Michael Williamson, Robert Rosenberg, Philip H. Heintz, and Daniel Sandoval",
+    "venue": "Proc. SPIE 8320, Medical Imaging 2012: Ultrasonic Imaging, Tomography, and Therapy, pp. 83200H1-83200H8, 2012.",
+    "year": 2012,
+    "type": "Conference",
+    "topic": "Medical Imaging & Cancer Detection",
+    "selected": false,
+    "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/8320/83200H/Detection-of-breast-microcalcifications-using-synthetic-aperture-ultrasound/10.1117/12.910656.full"
+  },
+  {
+    "title": "A wave-energy-based precondition approach to full-waveform inversion in the time domain",
+    "authors": "Zhigang Zhang, Lianjie Huang, and Youzuo Lin",
+    "venue": "Expanded Abstracts, Annual Meeting, Society of Exploration Geophysicists (SEG), pp. 1-5, 2012.",
+    "year": 2012,
+    "type": "Conference",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": false,
+    "url": "https://library.seg.org/doi/abs/10.1190/segam2012-1555.1"
+  },
+  {
+    "title": "Quantifying changes of geophysical properties in small regions within EGS reservoirs",
+    "authors": "Youzuo Lin, Lianjie Huang, and Zhigang Zhang",
+    "venue": "Proceedings of the 37th Stanford Geothermal Workshop, vol. 37, 2012.",
+    "year": 2012,
+    "type": "Conference",
+    "topic": "Renewable Energy & Geothermal Exploration",
+    "selected": false,
+    "url": "https://pangea.stanford.edu/ERE/db/IGAstandard/record_detail.php?id=8306"
+  },
+  {
+    "title": "Double-difference elastic-waveform inversion with weighted gradients for monitoring EGS reservoirs",
+    "authors": "Zhigang Zhang, Lianjie Huang, and Youzuo Lin",
+    "venue": "Proceedings of the 37th Stanford Geothermal Workshop, vol. 37, 2012.",
+    "year": 2012,
+    "type": "Conference",
+    "topic": "Renewable Energy & Geothermal Exploration",
+    "selected": false,
+    "url": "https://pangea.stanford.edu/ERE/db/IGAstandard/record_detail.php?id=8392"
+  },
+  {
+    "title": "Multisplitting for regularized least squares with Krylov subspace recycling",
+    "authors": "Rosemary Renaut, Youzuo Lin, and Hongbin Guo",
+    "venue": "Numerical Linear Algebra with Applications, vol. 19, issue 4, pp. 655-676, 2011.",
+    "year": 2011,
+    "type": "Journal",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": false,
+    "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/nla.797"
+  },
+  {
+    "title": "Quantitative monitoring enhanced geothermal systems using double-difference waveform inversion with spatially-variant-total-variation regularization",
+    "authors": "Youzuo Lin, Lianjie Huang, and Zhigang Zhang",
+    "venue": "Proceedings of the 35th Geothermal Resources Council Annual Meeting, vol. 35, pp. 1703-1708, 2011.",
+    "year": 2011,
+    "type": "Conference",
+    "topic": "Renewable Energy & Geothermal Exploration",
+    "selected": false,
+    "url": "https://www.geothermal-library.org/index.php?mode=pubs&action=view&record=1029477"
+  },
+  {
+    "title": "Spatially-variant Tikhonov regularization for double-difference waveform inversion",
+    "authors": "Youzuo Lin, Zhigang Zhang, and Lianjie Huang",
+    "venue": "Proceedings of the 10th Annual Conference on Carbon Capture & Sequestration, 2011.",
+    "year": 2011,
+    "type": "Conference",
+    "topic": "Clean Energy & Carbon Management",
+    "selected": false,
+    "url": "https://www.osti.gov/biblio/1012631"
+  },
+  {
+    "title": "Full-waveform inversion in the time domain with an energy-weighted gradient",
+    "authors": "Zhigang Zhang, Youzuo Lin, and Lianjie Huang",
+    "venue": "Expanded Abstracts, Annual Meeting, Society of Exploration Geophysicists (SEG), pp. 2772-2776, 2011.",
+    "year": 2011,
+    "type": "Conference",
+    "topic": "Subsurface Imaging & Inversion",
+    "selected": false,
+    "url": "https://library.seg.org/doi/abs/10.1190/1.3627770"
+  },
+  {
+    "title": "UPRE method for total variation parameter selection",
+    "authors": "Youzuo Lin, Brendt Wohlberg, and Hongbin Guo",
+    "venue": "Signal Processing, vol. 90, no. 8, pp. 2546-2551, 2010.",
+    "year": 2010,
+    "type": "Journal",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": false,
+    "url": "https://www.sciencedirect.com/science/article/pii/S016516841000085X"
+  },
+  {
+    "title": "Application of the UPRE method to optimal parameter selection for large scale regularization problems",
+    "authors": "Youzuo Lin and Brendt Wohlberg",
+    "venue": "IEEE Southwest Symposium on Image Analysis and Interpretation, pp. 89-92, 2008.",
+    "year": 2008,
+    "type": "Conference",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": false,
+    "url": "https://ieeexplore.ieee.org/abstract/document/4512292"
+  },
+  {
+    "title": "Modeling the background noise in a mass spectrometer for denoising applications",
+    "authors": "Richard Barnard, Yutheeka Gadhyan, Youzuo Lin, Lin Tong, Jiaping Wang, Guangjin Zhong, and Anthony Kearsley",
+    "venue": "Mathematical Modeling in Industry XII Workshop, Institute for Mathematics and Its Applications, University of Minnesota, 2008.",
+    "year": 2008,
+    "type": "Conference",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": false,
+    "url": "https://www.semanticscholar.org/paper/MODELLING-THE-BACKGROUND-NOISE-IN-A-MASS-FOR-OF-AND-Kearsley-Barnard/990705a7b6669531f6e0453c7719015a0b598c9e"
+  },
+  {
+    "title": "Blind image deconvolution: motion blur estimation",
+    "authors": "Felix Krahmer, Youzuo Lin, Bonnie McAdoo, Katharine Ott, Jiakou Wang, David Widemann, and Brendt Wohlberg",
+    "venue": "Mathematical Modeling in Industry X Workshop, Institute for Mathematics and Its Applications, University of Minnesota, 2006.",
+    "year": 2006,
+    "type": "Conference",
+    "topic": "Scientific Machine Learning & Data Science",
+    "selected": false,
+    "url": "https://www.semanticscholar.org/paper/Blind-Image-Deconvolution-Motion-Blur-Estimation-Krahmer-Lin/25ae53e9867961720c4c8d198373c0ccb2be7112"
+  }
+]

@@ -1,22 +1,12 @@
-.contact-me-container {
+.contact-frame { overflow: hidden; }
+.contact-frame iframe {
+  display: block;
   width: 100%;
-  max-width: 1500px; /* Maximum width of the form */
-  margin: 0 auto; /* Centering the form */
-  padding: 20px;
+  height: 1000px;
+  border: 0;
 }
+.contact-fallback { margin-top: 14px; font-size: 0.9rem; color: var(--muted); text-align: center; }
 
-iframe {
-  height: 993px; /* Fixed height, or you can make it relative to the width */
-  width: 100%; /* Make iframe width responsive */
-}
-
-/* Media query for smaller screens */
-@media (max-width: 768px) {
-  .contact-me-container {
-    padding: 10px;
-  }
-
-  iframe {
-    height: auto; /* Adjust height for smaller screens */
-  }
+@media (max-width: 640px) {
+  .contact-frame iframe { height: 1150px; }
 }

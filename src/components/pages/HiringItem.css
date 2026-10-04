@@ -1,45 +1,9 @@
-/* HiringItem.css */
-.hiring-item-card {
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 30px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  width: 80%;
-}
-
-.job-title {
-  font-size: 30px;
-  color: #333;
-  margin-bottom: 10px;
-}
-
-.job-about {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.job-requirements {
-  font-size: 20px;
-  list-style-type: disc;
-  margin-left: 20px;
-  margin-bottom: 20px;
-}
-
-.apply-link {
-  display: inline-block;
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 4px;
-  text-decoration: none;
-}
-
-/* Hiring.css */
-.hiring-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-}
+.job { padding: clamp(22px, 3vw, 32px); margin: 8px 0 24px; }
+.job-title { font-size: 1.5rem; }
+.job-about { margin: 14px 0 0; font-size: 1.03rem; line-height: 1.75; color: var(--ink-2); }
+.job-subtitle { margin: 22px 0 8px; font-size: 1.05rem; }
+.job-requirements { margin: 0 0 24px; padding-left: 1.25em; color: var(--ink-2); line-height: 1.7; }
+.job-requirements li { margin: 6px 0; }
+.job-status { margin-bottom: 10px; }
+.job-requirements a { font-weight: 600; }
+.job .btn-row { margin-top: 4px; }
