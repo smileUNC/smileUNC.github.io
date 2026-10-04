@@ -143,6 +143,7 @@ Almost everything on the site is generated from plain data files. Edit the file,
 | OpenFWI datasets, benchmarks, resources | `src/data/openfwi.js` | Copy an existing benchmark object to add a new one. |
 | $\mathbb{E}^{FWI}$ benchmark tables | `src/data/efwi.js` | Values are strings so trailing zeros show. |
 | Software page (OmniWave Software) and demo downloads | `src/data/software.js` | Instructions for adding downloads are at the top of the file. |
+| Data page (OpenFWI, $\mathbb{E}^{FWI}$, OpenPros) | `src/data/datasets.js` | Order in the file = order on the page. Each dataset links to its project page; `facts` and `links` are optional. |
 | Navigation, footer links, social icons | `src/data/site.js` | |
 | Colours, fonts, spacing | `src/styles/theme.css` | All design tokens are CSS variables at the top. |
 | Logos and icons | `public/images/omniwave.png` (OmniWave wordmark, home page only), `public/images/omniwave-emblem.png` (emblem, top-left logo and footer); `public/favicon.ico`, `logo192.png`, `logo512.png`, `apple-touch-icon.png`, `og-image.png` (made from the emblem) | Replace the files, keep the names. |

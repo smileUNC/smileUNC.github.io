@@ -5,6 +5,7 @@ import { ScrollToTop } from "./components/common";
 import Home from "./components/pages/Home";
 import Projects from "./components/pages/Projects";
 import Software from "./components/pages/Software";
+import Data from "./components/pages/Data";
 import Publications from "./components/pages/Publications";
 import Team from "./components/pages/Team";
 import Updates from "./components/pages/Updates";
@@ -30,6 +31,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/projects/*" element={<Projects />} />
           <Route path="/software" element={<Software />} />
+          <Route path="/data" element={<Data />} />
           <Route path="/publications" element={<Publications />} />
           <Route path="/team" element={<Team />} />
           <Route path="/updates" element={<Updates />} />

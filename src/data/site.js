@@ -16,6 +16,7 @@ export const nav = [
   { label: "Home", to: "/", end: true },
   { label: "Projects", to: "/projects" },
   { label: "Software", to: "/software" },
+  { label: "Data", to: "/data" },
   { label: "Publications", to: "/publications" },
   { label: "Team", to: "/team" },
   { label: "Updates", to: "/updates" },
@@ -31,6 +32,7 @@ export const footerColumns = [
     links: [
       { label: "Projects", to: "/projects" },
       { label: "Software", to: "/software" },
+      { label: "Data", to: "/data" },
       { label: "Publications", to: "/publications" },
       { label: "OpenFWI", to: "/projects/openfwi" },
     ],

@@ -12,13 +12,6 @@
 
 export const news = [
   {
-    date: "Oct 2026",
-    year: 2026,
-    tag: "Lab",
-    title: "The SMILE Lab is now the OmniWave Lab",
-    body: "The new name reflects the lab’s focus on machine learning for wave physics.",
-  },
-  {
     date: "Sep 2026",
     year: 2026,
     tag: "Software",

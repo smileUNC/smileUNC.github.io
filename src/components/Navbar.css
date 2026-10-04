@@ -38,7 +38,7 @@
   color: var(--muted);
 }
 
-.nav { display: flex; align-items: center; gap: 8px; }
+.nav { display: flex; flex-shrink: 0; align-items: center; gap: 8px; }
 .nav ul { display: flex; gap: 2px; margin: 0; padding: 0; list-style: none; }
 
 .nav-link {
@@ -56,6 +56,12 @@
 .nav-link:hover { color: var(--navy); background: var(--bg-soft); }
 .nav-link.is-active { color: var(--navy); background: var(--brand-tint); }
 .nav-cta { margin-left: 8px; }
+.nav-link, .nav-cta { white-space: nowrap; }
+
+/* Just above the phone menu, drop the "Lab · UNC Chapel Hill" tag so all the links fit. */
+@media (min-width: 1001px) and (max-width: 1100px) {
+  .brand-sub { display: none; }
+}
 
 .nav-toggle {
   display: none;

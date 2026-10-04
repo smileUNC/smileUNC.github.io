@@ -109,7 +109,7 @@ export default function EFWIDatasets() {
           </div>
 
           <div>
-            <h3> Vel Family</h3>
+            <h3> Fault Family</h3>
             <div className="table-wrapper">
               <table className="fl-table">
                 <thead>
