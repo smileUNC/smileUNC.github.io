@@ -137,13 +137,14 @@ Almost everything on the site is generated from plain data files. Edit the file,
 | Team members / alumni | `src/data/team.js` | Square photos (~800×800 px) in `public/images/team/`; no photo → initials. Optional `website` / `linkedin` / `scholar` show as icons; `link` is where the card itself goes; `period` = time in the group. |
 | Publications | `src/data/publications.json` | One object per paper (see below). Lab members are bolded automatically. |
 | Project cards | `src/data/projects.js` | Order in the file = order on the site. The first six appear on the home page. |
-| News / updates | `src/data/news.js` | Add new items at the **top**. The home page shows the first four. |
+| News / updates | `src/data/news.js` | Add new items at the **top**. The home page shows the first four. To link a PDF (e.g. a flyer), put it in `public/files/` and add `{ label, file: "files/name.pdf" }` to `links`. |
 | Open positions (Join us) | `src/data/openings.js` | Remove an entry when the position is filled. |
 | Home-page highlights carousel | `src/data/highlights.js` | Media in `public/media/highlights/` (prefer MP4 over GIF). |
 | OpenFWI datasets, benchmarks, resources | `src/data/openfwi.js` | Copy an existing benchmark object to add a new one. |
 | $\mathbb{E}^{FWI}$ benchmark tables | `src/data/efwi.js` | Values are strings so trailing zeros show. |
 | Software page (OmniWave Software) and demo downloads | `src/data/software.js` | Instructions for adding downloads are at the top of the file. |
 | Data page (OpenFWI, $\mathbb{E}^{FWI}$, OpenPros) | `src/data/datasets.js` | Order in the file = order on the page. Each dataset links to its project page; `facts` and `links` are optional. |
+| Gallery (photos) | `src/data/gallery.js` | Newest first. Photos in `public/images/gallery/`, about 1600 px on the long side, with location data removed. `featured: true` shows one photo full width; clicking a photo opens it full size. |
 | Navigation, footer links, social icons | `src/data/site.js` | |
 | Colours, fonts, spacing | `src/styles/theme.css` | All design tokens are CSS variables at the top. |
 | Logos and icons | `public/images/omniwave.png` (OmniWave wordmark, home page only), `public/images/omniwave-emblem.png` (emblem, top-left logo and footer); `public/favicon.ico`, `logo192.png`, `logo512.png`, `apple-touch-icon.png`, `og-image.png` (made from the emblem) | Replace the files, keep the names. |
@@ -194,7 +195,8 @@ vite.config.js       build settings (dev-server port, output folder, base path, 
 .env                 the site's public address (VITE_SITE_URL) — change it if the site moves
 scripts/build-offline.mjs  makes the one-file offline copy (npm run build:offline → offline/, not committed)
 public/              copied to the site as-is
-  images/            photos, figures, logos
+  files/             PDFs and other downloads linked from the site (e.g. the IEEE IUS 2026 flyer)
+  images/            photos, figures, logos (Gallery photos in images/gallery/)
   media/highlights/  videos for the home-page carousel (MP4 + WebM)
   404.html           GitHub Pages single-page-app redirect (keep it)
   .nojekyll          tells GitHub Pages to serve files as-is (keep it)

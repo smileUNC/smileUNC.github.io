@@ -20,6 +20,7 @@ export const nav = [
   { label: "Publications", to: "/publications" },
   { label: "Team", to: "/team" },
   { label: "Updates", to: "/updates" },
+  { label: "Gallery", to: "/gallery" },
 ];
 
 // Call-to-action button at the right end of the top bar.
@@ -42,6 +43,7 @@ export const footerColumns = [
     links: [
       { label: "Team", to: "/team" },
       { label: "Updates", to: "/updates" },
+      { label: "Gallery", to: "/gallery" },
       { label: "Blog", to: "/blog" },
       { label: "Join us", to: "/hiring" },
     ],

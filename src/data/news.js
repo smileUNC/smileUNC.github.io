@@ -7,10 +7,24 @@
 //   tag    "Paper" | "OpenFWI" | "Software" | "Lab" | "Award" | ... (any short label works)
 //   title  One line ($...$ for math, e.g. "$\\mathbb{E}^{FWI}$")
 //   body   Optional sentence(s)
-//   links  Optional [{ label, to }] for internal pages or [{ label, href }] for external URLs
+//   links  Optional [{ label, to }] for internal pages, [{ label, href }] for external URLs,
+//          or [{ label, file }] for a file in public/ (e.g. "files/flyer.pdf"; opens in a new tab)
 // ---------------------------------------------------------------------------
 
 export const news = [
+  {
+    date: "Oct 2026",
+    year: 2026,
+    tag: "Conference",
+    title: "OmniWave Lab at IEEE IUS 2026: three oral talks, two posters and a lab tour",
+    body:
+      "At the IEEE International Ultrasonics Symposium in Raleigh, NC, we presented three oral talks and two posters on physics-guided AI for computational wave imaging, covering ultrasonic wave simulation, transcranial ultrasound full waveform inversion, speed-of-sound reconstruction, sparse-to-dense RF reconstruction and radiacoustic dosimetry. On October 4, we also welcomed symposium attendees to UNC–Chapel Hill for the IUS lab tour, with four live demos.",
+    links: [
+      { label: "Flyer (PDF)", file: "files/OmniWave-IUS-2026-flyer.pdf" },
+      { label: "Photos", to: "/gallery" },
+      { label: "IEEE IUS 2026", href: "https://ieee-ius.org/2026/" },
+    ],
+  },
   {
     date: "Sep 2026",
     year: 2026,

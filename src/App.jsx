@@ -9,6 +9,7 @@ import Data from "./components/pages/Data";
 import Publications from "./components/pages/Publications";
 import Team from "./components/pages/Team";
 import Updates from "./components/pages/Updates";
+import Gallery from "./components/pages/Gallery";
 import Contact from "./components/pages/Contact";
 import Hiring from "./components/pages/Hiring";
 import Blog from "./components/pages/Blog";
@@ -35,6 +36,7 @@ function App() {
           <Route path="/publications" element={<Publications />} />
           <Route path="/team" element={<Team />} />
           <Route path="/updates" element={<Updates />} />
+          <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact-us" element={<Contact />} />
           <Route path="/hiring" element={<Hiring />} />
           <Route path="/blog" element={<Blog />} />

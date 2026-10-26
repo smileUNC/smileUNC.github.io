@@ -1,10 +1,35 @@
 import { FiArrowUpRight } from "react-icons/fi";
 import SmartLink from "./SmartLink";
 import { MathText } from "./common";
-import { isExternal } from "../utils/asset";
+import { asset, isExternal } from "../utils/asset";
 import "./NewsList.css";
 
-const TAG_CLASS = { Paper: "", OpenFWI: "badge--muted", Software: "badge--new", Lab: "badge--muted", Award: "badge--new" };
+const TAG_CLASS = {
+  Paper: "",
+  OpenFWI: "badge--muted",
+  Software: "badge--new",
+  Lab: "badge--muted",
+  Award: "badge--new",
+  Conference: "badge--new",
+};
+
+// One news link: an internal page (`to`), an external URL (`href`) or a file in public/ (`file`).
+function NewsLink({ link }) {
+  if (link.file) {
+    return (
+      <a href={asset(link.file)} target="_blank" rel="noopener noreferrer" className="news-link">
+        <MathText>{link.label}</MathText>
+        <FiArrowUpRight aria-hidden="true" />
+      </a>
+    );
+  }
+  return (
+    <SmartLink to={link.to} href={link.href} className="news-link">
+      <MathText>{link.label}</MathText>
+      {isExternal(link.href || link.to) && <FiArrowUpRight aria-hidden="true" />}
+    </SmartLink>
+  );
+}
 
 export default function NewsList({ items }) {
   return (
@@ -23,10 +48,7 @@ export default function NewsList({ items }) {
             {n.links && n.links.length > 0 && (
               <div className="news-links">
                 {n.links.map((l) => (
-                  <SmartLink key={l.label} to={l.to} href={l.href} className="news-link">
-                    <MathText>{l.label}</MathText>
-                    {isExternal(l.href || l.to) && <FiArrowUpRight aria-hidden="true" />}
-                  </SmartLink>
+                  <NewsLink key={l.label} link={l} />
                 ))}
               </div>
             )}
