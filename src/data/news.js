@@ -28,6 +28,14 @@ export const news = [
   {
     date: "Sep 2026",
     year: 2026,
+    tag: "Award",
+    title:
+      "Our collaborative proposal with George Mason University and Los Alamos National Laboratory (LANL) was awarded funding by the DOE Office of ASCR!",
+    body: "We are grateful to DOE for its support.",
+  },
+  {
+    date: "Sep 2026",
+    year: 2026,
     tag: "Software",
     title: "Introducing OmniWave Software",
     body:

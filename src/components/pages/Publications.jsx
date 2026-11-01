@@ -4,7 +4,7 @@ import { FiArrowUpRight, FiGithub, FiLayers, FiSearch, FiStar, FiX } from "react
 import publications from "../../data/publications.json";
 import { AuthorList, MathText, PageHeader } from "../common";
 import { useDocumentTitle } from "../../utils/useDocumentTitle";
-import "./Publications.css";
+import "./publications.css"; // file name is lower-case in the repository
 
 // Publications live in src/data/publications.json (one object per paper):
 //   { "title", "authors", "venue", "year", "type", "topic", "selected", "url", "project"?, "code"? }

@@ -22,24 +22,14 @@ export const gallery = [
     featured: true,
   },
   {
+    src: "images/gallery/group-photo-reinhard-drews.jpg",
+    alt: "The research group and Prof. Reinhard Drews stand in a row in front of the UNC School of Data and Information Sciences sign.",
+    caption: "Research group photo with Prof. Reinhard Drews from the University of Tübingen",
+    date: "Oct 2026",
+  },
+  {
     src: "images/gallery/lab-members.jpg",
     alt: "Four lab members stand in a room with tall windows looking out over campus; monitors on the left show wave data.",
     caption: "In the lab",
-  },
-  {
-    src: "images/gallery/team-lunch.jpg",
-    alt: "Four lab members smile at a table in a casual restaurant.",
-    caption: "Team lunch",
-  },
-  {
-    src: "images/gallery/team-lunch-selfie.jpg",
-    alt: "A lab member takes a selfie with colleagues seated at a restaurant table behind.",
-    caption: "Lunch selfie",
-  },
-  {
-    src: "images/gallery/lab-dinner.jpg",
-    alt: "Lab members gathered around a round table at a restaurant after dinner.",
-    caption: "Lab dinner",
-    position: "center 60%",
   },
 ];

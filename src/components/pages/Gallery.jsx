@@ -6,6 +6,9 @@ import { asset } from "../../utils/asset";
 import { gallery } from "../../data/gallery";
 import "./Gallery.css";
 
+// Featured photos come first (full width), then the rest in a grid; the full-size viewer follows this order.
+const photos = [...gallery.filter((p) => p.featured), ...gallery.filter((p) => !p.featured)];
+
 // Gallery page. Photos and captions live in src/data/gallery.js.
 export default function Gallery() {
   useDocumentTitle("Gallery");
@@ -20,7 +23,7 @@ export default function Gallery() {
     setOpen(null);
     trigger.current?.focus();
   };
-  const step = (d) => setOpen((i) => (i + d + gallery.length) % gallery.length);
+  const step = (d) => setOpen((i) => (i + d + photos.length) % photos.length);
 
   return (
     <>
@@ -30,38 +33,48 @@ export default function Gallery() {
 
       <section className="section">
         <div className="container">
+          {photos.some((p) => p.featured) && (
+            <ul className="gallery-featured">
+              {photos.map((p, i) => p.featured && <GalleryItem key={p.src} photo={p} onOpen={(el) => show(i, el)} />)}
+            </ul>
+          )}
           <ul className="gallery-grid">
-            {gallery.map((p, i) => (
-              <li key={p.src} className={`gallery-item${p.featured ? " gallery-item--featured" : ""}`}>
-                <figure>
-                  <button
-                    type="button"
-                    className="gallery-thumb"
-                    onClick={(e) => show(i, e.currentTarget)}
-                    aria-label={`View larger: ${p.caption}`}
-                  >
-                    <img
-                      src={asset(p.src)}
-                      alt={p.alt}
-                      loading={p.featured ? "eager" : "lazy"}
-                      style={p.position ? { objectPosition: p.position } : undefined}
-                    />
-                  </button>
-                  <figcaption>
-                    <span className="gallery-caption">{p.caption}</span>
-                    {p.date && <span className="gallery-date">{p.date}</span>}
-                  </figcaption>
-                </figure>
-              </li>
-            ))}
+            {photos.map((p, i) => !p.featured && <GalleryItem key={p.src} photo={p} onOpen={(el) => show(i, el)} />)}
           </ul>
         </div>
       </section>
 
       {open !== null && (
-        <Lightbox photo={gallery[open]} index={open} total={gallery.length} onClose={close} onStep={step} />
+        <Lightbox photo={photos[open]} index={open} total={photos.length} onClose={close} onStep={step} />
       )}
     </>
+  );
+}
+
+// One photo with its caption; clicking it opens the full-size viewer.
+function GalleryItem({ photo: p, onOpen }) {
+  return (
+    <li className={`gallery-item${p.featured ? " gallery-item--featured" : ""}`}>
+      <figure>
+        <button
+          type="button"
+          className="gallery-thumb"
+          onClick={(e) => onOpen(e.currentTarget)}
+          aria-label={`View larger: ${p.caption}`}
+        >
+          <img
+            src={asset(p.src)}
+            alt={p.alt}
+            loading={p.featured ? "eager" : "lazy"}
+            style={p.position ? { objectPosition: p.position } : undefined}
+          />
+        </button>
+        <figcaption>
+          <span className="gallery-caption">{p.caption}</span>
+          {p.date && <span className="gallery-date">{p.date}</span>}
+        </figcaption>
+      </figure>
+    </li>
   );
 }
 

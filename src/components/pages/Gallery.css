@@ -1,13 +1,15 @@
+/* Featured photos run full width; the others share each row equally (2 photos → halves, 3 → thirds …). */
+.gallery-featured,
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr));
   gap: clamp(16px, 2.2vw, 24px);
   margin: 0;
   padding: 0;
   list-style: none;
 }
+.gallery-featured { margin-bottom: clamp(20px, 3vw, 32px); }
+.gallery-grid { grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); }
 .gallery-item figure { margin: 0; }
-.gallery-item--featured { grid-column: 1 / -1; }
 
 .gallery-thumb {
   display: block;
